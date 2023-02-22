@@ -1,0 +1,36 @@
+/Users/shreyshrey/BikerChoiceProject/BCP.Core/bin/Debug/net6.0/BCP.Core.deps.json
+/Users/shreyshrey/BikerChoiceProject/BCP.Core/bin/Debug/net6.0/BCP.Core.dll
+/Users/shreyshrey/BikerChoiceProject/BCP.Core/bin/Debug/net6.0/BCP.Core.pdb
+/Users/shreyshrey/BikerChoiceProject/BCP.Core/obj/Debug/net6.0/BCP.Core.csproj.AssemblyReference.cache
+/Users/shreyshrey/BikerChoiceProject/BCP.Core/obj/Debug/net6.0/BCP.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/shreyshrey/BikerChoiceProject/BCP.Core/obj/Debug/net6.0/BCP.Core.AssemblyInfoInputs.cache
+/Users/shreyshrey/BikerChoiceProject/BCP.Core/obj/Debug/net6.0/BCP.Core.AssemblyInfo.cs
+/Users/shreyshrey/BikerChoiceProject/BCP.Core/obj/Debug/net6.0/BCP.Core.csproj.CoreCompileInputs.cache
+/Users/shreyshrey/BikerChoiceProject/BCP.Core/obj/Debug/net6.0/BCP.Core.dll
+/Users/shreyshrey/BikerChoiceProject/BCP.Core/obj/Debug/net6.0/refint/BCP.Core.dll
+/Users/shreyshrey/BikerChoiceProject/BCP.Core/obj/Debug/net6.0/BCP.Core.pdb
+/Users/shreyshrey/BikerChoiceProject/BCP.Core/obj/Debug/net6.0/ref/BCP.Core.dll
+/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Core/bin/Debug/net6.0/BCP.Core.deps.json
+/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Core/bin/Debug/net6.0/BCP.Core.dll
+/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Core/bin/Debug/net6.0/BCP.Core.pdb
+/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Core/obj/Debug/net6.0/BCP.Core.csproj.AssemblyReference.cache
+/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Core/obj/Debug/net6.0/BCP.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Core/obj/Debug/net6.0/BCP.Core.AssemblyInfoInputs.cache
+/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Core/obj/Debug/net6.0/BCP.Core.AssemblyInfo.cs
+/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Core/obj/Debug/net6.0/BCP.Core.csproj.CoreCompileInputs.cache
+/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Core/obj/Debug/net6.0/BCP.Core.dll
+/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Core/obj/Debug/net6.0/refint/BCP.Core.dll
+/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Core/obj/Debug/net6.0/BCP.Core.pdb
+/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Core/obj/Debug/net6.0/ref/BCP.Core.dll
+/Users/shreychettri/Desktop/Bike rental back/BCP.Core/bin/Debug/net6.0/BCP.Core.deps.json
+/Users/shreychettri/Desktop/Bike rental back/BCP.Core/bin/Debug/net6.0/BCP.Core.dll
+/Users/shreychettri/Desktop/Bike rental back/BCP.Core/bin/Debug/net6.0/BCP.Core.pdb
+/Users/shreychettri/Desktop/Bike rental back/BCP.Core/obj/Debug/net6.0/BCP.Core.csproj.AssemblyReference.cache
+/Users/shreychettri/Desktop/Bike rental back/BCP.Core/obj/Debug/net6.0/BCP.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/shreychettri/Desktop/Bike rental back/BCP.Core/obj/Debug/net6.0/BCP.Core.AssemblyInfoInputs.cache
+/Users/shreychettri/Desktop/Bike rental back/BCP.Core/obj/Debug/net6.0/BCP.Core.AssemblyInfo.cs
+/Users/shreychettri/Desktop/Bike rental back/BCP.Core/obj/Debug/net6.0/BCP.Core.csproj.CoreCompileInputs.cache
+/Users/shreychettri/Desktop/Bike rental back/BCP.Core/obj/Debug/net6.0/BCP.Core.dll
+/Users/shreychettri/Desktop/Bike rental back/BCP.Core/obj/Debug/net6.0/refint/BCP.Core.dll
+/Users/shreychettri/Desktop/Bike rental back/BCP.Core/obj/Debug/net6.0/BCP.Core.pdb
+/Users/shreychettri/Desktop/Bike rental back/BCP.Core/obj/Debug/net6.0/ref/BCP.Core.dll

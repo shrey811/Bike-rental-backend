@@ -1,0 +1,51 @@
+/Users/shreyshrey/BikerChoiceProject/BCP.Infrastructure/bin/Debug/net6.0/BCP.Infrastructure.deps.json
+/Users/shreyshrey/BikerChoiceProject/BCP.Infrastructure/bin/Debug/net6.0/BCP.Infrastructure.runtimeconfig.json
+/Users/shreyshrey/BikerChoiceProject/BCP.Infrastructure/bin/Debug/net6.0/BCP.Infrastructure.dll
+/Users/shreyshrey/BikerChoiceProject/BCP.Infrastructure/bin/Debug/net6.0/BCP.Infrastructure.pdb
+/Users/shreyshrey/BikerChoiceProject/BCP.Infrastructure/bin/Debug/net6.0/BCP.Core.dll
+/Users/shreyshrey/BikerChoiceProject/BCP.Infrastructure/bin/Debug/net6.0/BCP.Core.pdb
+/Users/shreyshrey/BikerChoiceProject/BCP.Infrastructure/obj/Debug/net6.0/BCP.Infrastructure.csproj.AssemblyReference.cache
+/Users/shreyshrey/BikerChoiceProject/BCP.Infrastructure/obj/Debug/net6.0/BCP.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/shreyshrey/BikerChoiceProject/BCP.Infrastructure/obj/Debug/net6.0/BCP.Infrastructure.AssemblyInfoInputs.cache
+/Users/shreyshrey/BikerChoiceProject/BCP.Infrastructure/obj/Debug/net6.0/BCP.Infrastructure.AssemblyInfo.cs
+/Users/shreyshrey/BikerChoiceProject/BCP.Infrastructure/obj/Debug/net6.0/BCP.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/shreyshrey/BikerChoiceProject/BCP.Infrastructure/obj/Debug/net6.0/BCP.Infrastructure.csproj.CopyComplete
+/Users/shreyshrey/BikerChoiceProject/BCP.Infrastructure/obj/Debug/net6.0/BCP.Infrastructure.dll
+/Users/shreyshrey/BikerChoiceProject/BCP.Infrastructure/obj/Debug/net6.0/refint/BCP.Infrastructure.dll
+/Users/shreyshrey/BikerChoiceProject/BCP.Infrastructure/obj/Debug/net6.0/BCP.Infrastructure.pdb
+/Users/shreyshrey/BikerChoiceProject/BCP.Infrastructure/obj/Debug/net6.0/BCP.Infrastructure.genruntimeconfig.cache
+/Users/shreyshrey/BikerChoiceProject/BCP.Infrastructure/obj/Debug/net6.0/ref/BCP.Infrastructure.dll
+/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Infrastructure/bin/Debug/net6.0/BCP.Infrastructure.deps.json
+/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Infrastructure/bin/Debug/net6.0/BCP.Infrastructure.runtimeconfig.json
+/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Infrastructure/bin/Debug/net6.0/BCP.Infrastructure.dll
+/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Infrastructure/bin/Debug/net6.0/BCP.Infrastructure.pdb
+/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Infrastructure/bin/Debug/net6.0/BCP.Core.dll
+/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Infrastructure/bin/Debug/net6.0/BCP.Core.pdb
+/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Infrastructure/obj/Debug/net6.0/BCP.Infrastructure.csproj.AssemblyReference.cache
+/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Infrastructure/obj/Debug/net6.0/BCP.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Infrastructure/obj/Debug/net6.0/BCP.Infrastructure.AssemblyInfoInputs.cache
+/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Infrastructure/obj/Debug/net6.0/BCP.Infrastructure.AssemblyInfo.cs
+/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Infrastructure/obj/Debug/net6.0/BCP.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Infrastructure/obj/Debug/net6.0/BCP.Infrastructure.csproj.CopyComplete
+/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Infrastructure/obj/Debug/net6.0/BCP.Infrastructure.dll
+/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Infrastructure/obj/Debug/net6.0/refint/BCP.Infrastructure.dll
+/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Infrastructure/obj/Debug/net6.0/BCP.Infrastructure.pdb
+/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Infrastructure/obj/Debug/net6.0/BCP.Infrastructure.genruntimeconfig.cache
+/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Infrastructure/obj/Debug/net6.0/ref/BCP.Infrastructure.dll
+/Users/shreychettri/Desktop/Bike rental back/BCP.Infrastructure/bin/Debug/net6.0/BCP.Infrastructure.deps.json
+/Users/shreychettri/Desktop/Bike rental back/BCP.Infrastructure/bin/Debug/net6.0/BCP.Infrastructure.runtimeconfig.json
+/Users/shreychettri/Desktop/Bike rental back/BCP.Infrastructure/bin/Debug/net6.0/BCP.Infrastructure.dll
+/Users/shreychettri/Desktop/Bike rental back/BCP.Infrastructure/bin/Debug/net6.0/BCP.Infrastructure.pdb
+/Users/shreychettri/Desktop/Bike rental back/BCP.Infrastructure/bin/Debug/net6.0/BCP.Core.dll
+/Users/shreychettri/Desktop/Bike rental back/BCP.Infrastructure/bin/Debug/net6.0/BCP.Core.pdb
+/Users/shreychettri/Desktop/Bike rental back/BCP.Infrastructure/obj/Debug/net6.0/BCP.Infrastructure.csproj.AssemblyReference.cache
+/Users/shreychettri/Desktop/Bike rental back/BCP.Infrastructure/obj/Debug/net6.0/BCP.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/shreychettri/Desktop/Bike rental back/BCP.Infrastructure/obj/Debug/net6.0/BCP.Infrastructure.AssemblyInfoInputs.cache
+/Users/shreychettri/Desktop/Bike rental back/BCP.Infrastructure/obj/Debug/net6.0/BCP.Infrastructure.AssemblyInfo.cs
+/Users/shreychettri/Desktop/Bike rental back/BCP.Infrastructure/obj/Debug/net6.0/BCP.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/shreychettri/Desktop/Bike rental back/BCP.Infrastructure/obj/Debug/net6.0/BCP.Infrastructure.csproj.CopyComplete
+/Users/shreychettri/Desktop/Bike rental back/BCP.Infrastructure/obj/Debug/net6.0/BCP.Infrastructure.dll
+/Users/shreychettri/Desktop/Bike rental back/BCP.Infrastructure/obj/Debug/net6.0/refint/BCP.Infrastructure.dll
+/Users/shreychettri/Desktop/Bike rental back/BCP.Infrastructure/obj/Debug/net6.0/BCP.Infrastructure.pdb
+/Users/shreychettri/Desktop/Bike rental back/BCP.Infrastructure/obj/Debug/net6.0/BCP.Infrastructure.genruntimeconfig.cache
+/Users/shreychettri/Desktop/Bike rental back/BCP.Infrastructure/obj/Debug/net6.0/ref/BCP.Infrastructure.dll
