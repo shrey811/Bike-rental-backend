@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BCP", "BCP\BCP.csproj", "{EF921983-7E45-4787-AB40-494A5494DC88}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BCP.Web", "BCP.Web\BCP.Web.csproj", "{EF921983-7E45-4787-AB40-494A5494DC88}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BCP.Core", "BCP.Core\BCP.Core.csproj", "{91588134-D235-4140-AD6D-8BC8D312ED7B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BCP.Module", "BCP.Module\BCP.Module.csproj", "{91588134-D235-4140-AD6D-8BC8D312ED7B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BCP.Infrastructure", "BCP.Infrastructure\BCP.Infrastructure.csproj", "{CDE1A5C2-13B3-4417-8292-17B2F83990E0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BCP.Data", "BCP.Data\BCP.Data.csproj", "{CDE1A5C2-13B3-4417-8292-17B2F83990E0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

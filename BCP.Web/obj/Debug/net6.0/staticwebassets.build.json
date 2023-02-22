@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "6h4HFbwrgwB8v5ZDOc0Y1a5G1KZjyAdsjHPihVYT9YA=",
+  "Source": "BCP.Web",
+  "BasePath": "_content/BCP.Web",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "BCP.Web/wwwroot",
+      "Source": "BCP.Web",
+      "ContentRoot": "/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Web/wwwroot/",
+      "BasePath": "_content/BCP.Web",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

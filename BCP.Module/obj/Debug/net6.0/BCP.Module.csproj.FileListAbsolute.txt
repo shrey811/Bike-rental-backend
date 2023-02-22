@@ -1,0 +1,12 @@
+/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Module/bin/Debug/net6.0/BCP.Module.deps.json
+/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Module/bin/Debug/net6.0/BCP.Module.dll
+/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Module/bin/Debug/net6.0/BCP.Module.pdb
+/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Module/obj/Debug/net6.0/BCP.Module.csproj.AssemblyReference.cache
+/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Module/obj/Debug/net6.0/BCP.Module.GeneratedMSBuildEditorConfig.editorconfig
+/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Module/obj/Debug/net6.0/BCP.Module.AssemblyInfoInputs.cache
+/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Module/obj/Debug/net6.0/BCP.Module.AssemblyInfo.cs
+/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Module/obj/Debug/net6.0/BCP.Module.csproj.CoreCompileInputs.cache
+/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Module/obj/Debug/net6.0/BCP.Module.dll
+/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Module/obj/Debug/net6.0/refint/BCP.Module.dll
+/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Module/obj/Debug/net6.0/BCP.Module.pdb
+/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Module/obj/Debug/net6.0/ref/BCP.Module.dll
