@@ -15,3 +15,20 @@
 /Users/shreychettri/Desktop/BikerChoiceProject/BCP.Data/obj/Debug/net6.0/BCP.Data.pdb
 /Users/shreychettri/Desktop/BikerChoiceProject/BCP.Data/obj/Debug/net6.0/BCP.Data.genruntimeconfig.cache
 /Users/shreychettri/Desktop/BikerChoiceProject/BCP.Data/obj/Debug/net6.0/ref/BCP.Data.dll
+/Users/shreychettri/Desktop/Bike rental back/BCP.Data/bin/Debug/net6.0/BCP.Data.deps.json
+/Users/shreychettri/Desktop/Bike rental back/BCP.Data/bin/Debug/net6.0/BCP.Data.runtimeconfig.json
+/Users/shreychettri/Desktop/Bike rental back/BCP.Data/bin/Debug/net6.0/BCP.Data.dll
+/Users/shreychettri/Desktop/Bike rental back/BCP.Data/bin/Debug/net6.0/BCP.Data.pdb
+/Users/shreychettri/Desktop/Bike rental back/BCP.Data/bin/Debug/net6.0/BCP.Module.dll
+/Users/shreychettri/Desktop/Bike rental back/BCP.Data/bin/Debug/net6.0/BCP.Module.pdb
+/Users/shreychettri/Desktop/Bike rental back/BCP.Data/obj/Debug/net6.0/BCP.Data.csproj.AssemblyReference.cache
+/Users/shreychettri/Desktop/Bike rental back/BCP.Data/obj/Debug/net6.0/BCP.Data.GeneratedMSBuildEditorConfig.editorconfig
+/Users/shreychettri/Desktop/Bike rental back/BCP.Data/obj/Debug/net6.0/BCP.Data.AssemblyInfoInputs.cache
+/Users/shreychettri/Desktop/Bike rental back/BCP.Data/obj/Debug/net6.0/BCP.Data.AssemblyInfo.cs
+/Users/shreychettri/Desktop/Bike rental back/BCP.Data/obj/Debug/net6.0/BCP.Data.csproj.CoreCompileInputs.cache
+/Users/shreychettri/Desktop/Bike rental back/BCP.Data/obj/Debug/net6.0/BCP.Data.csproj.CopyComplete
+/Users/shreychettri/Desktop/Bike rental back/BCP.Data/obj/Debug/net6.0/BCP.Data.dll
+/Users/shreychettri/Desktop/Bike rental back/BCP.Data/obj/Debug/net6.0/refint/BCP.Data.dll
+/Users/shreychettri/Desktop/Bike rental back/BCP.Data/obj/Debug/net6.0/BCP.Data.pdb
+/Users/shreychettri/Desktop/Bike rental back/BCP.Data/obj/Debug/net6.0/BCP.Data.genruntimeconfig.cache
+/Users/shreychettri/Desktop/Bike rental back/BCP.Data/obj/Debug/net6.0/ref/BCP.Data.dll

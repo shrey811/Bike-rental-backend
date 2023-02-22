@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "6h4HFbwrgwB8v5ZDOc0Y1a5G1KZjyAdsjHPihVYT9YA=",
+  "Hash": "jTdDP/DUOeT4ooC4m1HlvZdBtmUhXtMWx4MzvlxjPfg=",
   "Source": "BCP.Web",
   "BasePath": "_content/BCP.Web",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "BCP.Web/wwwroot",
       "Source": "BCP.Web",
-      "ContentRoot": "/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Web/wwwroot/",
+      "ContentRoot": "/Users/shreychettri/Desktop/Bike rental back/BCP.Web/wwwroot/",
       "BasePath": "_content/BCP.Web",
       "Pattern": "**"
     }
