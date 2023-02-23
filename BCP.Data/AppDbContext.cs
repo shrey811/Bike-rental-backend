@@ -1,5 +1,6 @@
 
 using BCP.Core.Entities.user;
+using BCP.Infrastructure.Configurations;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 using Npgsql;
@@ -20,7 +21,7 @@ namespace BCP.Infrastructure
             {
                 Host = dbConfig.Host,
                 Database = dbConfig.Database,
-                Username = dbConfig.Username,
+                Username = dbConfig.User,
                 Password = dbConfig.Password,
                 Port = dbConfig.Port
             };
@@ -37,7 +38,7 @@ namespace BCP.Infrastructure
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<User>().OwnsOne(u => u.Document);
+            modelBuilder.ApplyConfiguration(new UserConfiguration());
         }
     }
 }

@@ -4,12 +4,13 @@ namespace BCP.Infrastructure.Repository;
 
 public class BaseRepository<TEntity> where TEntity:class
 {
-    private AppDbContext _context;
-    private DbSet<TEntity> _set;
+    private readonly AppDbContext _context;
+    private readonly DbSet<TEntity> _set;
 
     protected BaseRepository(AppDbContext context)
     {
         _context = context;
+        _set = _context.Set<TEntity>();
     }
 
     public async Task<TEntity?> GetByIdAsync(int id)
@@ -21,6 +22,7 @@ public class BaseRepository<TEntity> where TEntity:class
     public async Task<TEntity> InsertAsync(TEntity entity)
     {
         await _set.AddAsync(entity);
+        await _context.SaveChangesAsync();
         return entity;
     }
 

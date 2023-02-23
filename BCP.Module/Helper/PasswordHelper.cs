@@ -1,7 +1,7 @@
 ﻿using System.Security.Cryptography;
 using System.Text;
 
-namespace BCP.Infrastructure.Helper;
+namespace BCP.Core.Helper;
 
 public class PasswordHelper
 {

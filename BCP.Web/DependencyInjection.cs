@@ -1,5 +1,6 @@
 ﻿using System.Text;
 using BCP.Core.Repository;
+using BCP.Core.Services;
 using BCP.Infrastructure;
 using BCP.Infrastructure.Repository;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -18,6 +19,7 @@ public static class DependencyInjection
         services.AddSwaggerGen();
         services.AddDbContext<AppDbContext>();
         services.AddScoped<IUserRepository, UserRepository>();
+        services.AddScoped<UserService>();
 
         return services;
     }

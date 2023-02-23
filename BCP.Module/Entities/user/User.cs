@@ -1,4 +1,6 @@
-﻿namespace BCP.Core.Entities.user;
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace BCP.Core.Entities.user;
 
 public class User
 {
@@ -9,5 +11,6 @@ public class User
     public string Email { get; set; }
     public string Password { get; set; }
     
+    [Column(TypeName = "jsonb")]
     public UserDocument Document { get; set; }
 }

@@ -4,6 +4,7 @@ using Microsoft.Extensions.FileProviders;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddCors();
 builder.Services.Configure<DbConfig>(builder.Configuration.GetSection("DbServer"));
 builder.Services
     .AddContainerService(builder.Configuration)
@@ -23,12 +24,17 @@ using (var scope = app.Services.CreateScope())
     var context = service.GetRequiredService<AppDbContext>();
 }
 
-app.UseHttpsRedirection();
-
 app.UseStaticFiles(new StaticFileOptions
 {
     FileProvider = new PhysicalFileProvider(Path.Combine(builder.Environment.ContentRootPath, "wwwroot")),
     RequestPath = "/temp"
+});
+app.UseCors(builder =>
+{
+    builder.SetIsOriginAllowed(_ => true);
+    builder.AllowAnyMethod();
+    builder.AllowAnyHeader();
+    builder.AllowCredentials();
 });
 
 app.UseAuthentication();

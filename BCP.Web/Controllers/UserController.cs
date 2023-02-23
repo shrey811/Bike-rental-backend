@@ -4,18 +4,18 @@ using System.Text;
 using BCP.ApiModels;
 using BCP.Core.Dtos;
 using BCP.Core.Entities.user;
+using BCP.Core.Helper;
 using BCP.Core.Models;
 using BCP.Core.Repository;
 using BCP.Core.Services;
 using BCP.Core.ViewModels;
-using BCP.Infrastructure.Helper;
 using BCP.Infrastructure.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
 
 namespace BCP.Controllers;
-[Route("api/[Controller]")]
+[Route("api/user")]
 [ApiController]
 public class UserController : ControllerBase
 {
