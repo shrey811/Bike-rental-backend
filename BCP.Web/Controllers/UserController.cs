@@ -32,7 +32,7 @@ public class UserController : ControllerBase
         _environment = environment;
         _userService = userService;
     }
-    
+
     [AllowAnonymous]
     [HttpPost("register")]
     public async Task<IActionResult> RegisterUser(UserRegisterApiModel model)
@@ -48,7 +48,7 @@ public class UserController : ControllerBase
         var user = await _userService.RegisterAsync(dto);
         return Ok(user);
     }
-    
+
     [AllowAnonymous]
     [HttpPost("login")]
     public async Task<IActionResult> LoginUser(LoginModel loginModel)
@@ -59,7 +59,7 @@ public class UserController : ControllerBase
             return BadRequest("Invalid Email");
         }
 
-        if (!PasswordHelper.VerifyPassword(loginModel.Password,verifyUser.Password,verifyUser.Email))
+        if (!PasswordHelper.VerifyPassword(loginModel.Password, verifyUser.Password, verifyUser.Email))
         {
             return BadRequest("Invalid Password");
         }
@@ -86,5 +86,12 @@ public class UserController : ControllerBase
         var token = tokenHandler.CreateToken(tokenDescriptor);
         var stringToken = tokenHandler.WriteToken(token);
         return Ok(stringToken);
+    }
+    [Authorize]
+    [HttpGet("users")]
+    public async Task<IActionResult> GetAllUsers()
+    {
+        var users = await _userRepository.GetAllAsync();
+        return Ok(users);
     }
 }

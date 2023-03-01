@@ -22,6 +22,84 @@ namespace BCP.Infrastructure.Migrations
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
+            modelBuilder.Entity("BCP.Core.Entities.Bike", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer")
+                        .HasColumnName("id");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("BrandId")
+                        .HasColumnType("integer")
+                        .HasColumnName("brand_id");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("description");
+
+                    b.Property<string>("ImageUrl")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("image_url");
+
+                    b.Property<decimal>("KmRun")
+                        .HasColumnType("numeric")
+                        .HasColumnName("km_run");
+
+                    b.Property<decimal>("Milage")
+                        .HasColumnType("numeric")
+                        .HasColumnName("milage");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("name");
+
+                    b.Property<string>("NumberPlate")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("number_plate");
+
+                    b.Property<decimal>("Rating")
+                        .HasColumnType("numeric")
+                        .HasColumnName("rating");
+
+                    b.HasKey("Id")
+                        .HasName("pk_bikes");
+
+                    b.HasIndex("BrandId")
+                        .HasDatabaseName("ix_bikes_brand_id");
+
+                    b.ToTable("bikes", (string)null);
+                });
+
+            modelBuilder.Entity("BCP.Core.Entities.Brand", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer")
+                        .HasColumnName("id");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Manufacturer")
+                        .HasColumnType("text")
+                        .HasColumnName("manufacturer");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("name");
+
+                    b.HasKey("Id")
+                        .HasName("pk_brand");
+
+                    b.ToTable("brand", (string)null);
+                });
+
             modelBuilder.Entity("BCP.Core.Entities.user.User", b =>
                 {
                     b.Property<int>("Id")
@@ -62,6 +140,18 @@ namespace BCP.Infrastructure.Migrations
                         .HasName("pk_users");
 
                     b.ToTable("users", (string)null);
+                });
+
+            modelBuilder.Entity("BCP.Core.Entities.Bike", b =>
+                {
+                    b.HasOne("BCP.Core.Entities.Brand", "Brand")
+                        .WithMany()
+                        .HasForeignKey("BrandId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired()
+                        .HasConstraintName("fk_bikes_brand_brand_id");
+
+                    b.Navigation("Brand");
                 });
 #pragma warning restore 612, 618
         }

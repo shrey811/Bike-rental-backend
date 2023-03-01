@@ -19,7 +19,10 @@ public static class DependencyInjection
         services.AddSwaggerGen();
         services.AddDbContext<AppDbContext>();
         services.AddScoped<IUserRepository, UserRepository>();
+        services.AddScoped<IBikeRepository, BikeRepository>();
+        services.AddScoped<IBrandRepository, BrandRepository>();
         services.AddScoped<UserService>();
+        services.AddScoped<BikeService>();
 
         return services;
     }

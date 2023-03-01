@@ -1,7 +1,9 @@
-
+using BCP.Core.Entities;
 using BCP.Core.Entities.user;
+using BCP.Data.Configurations;
 using BCP.Infrastructure.Configurations;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Npgsql;
 
@@ -10,7 +12,12 @@ namespace BCP.Infrastructure
     public class AppDbContext : DbContext
     {
         private readonly string _connectionString;
-        public AppDbContext(DbContextOptions<AppDbContext> options,IOptions<DbConfig> dbConfig) : base(options)
+
+        public DbSet<Bike> Bikes { get; set; }
+        public DbSet<User> Users { get; set; }
+        // add more DbSets for other entities
+
+        public AppDbContext(DbContextOptions<AppDbContext> options, IOptions<DbConfig> dbConfig) : base(options)
         {
             _connectionString = GetConnectionString(dbConfig.Value);
         }
@@ -35,6 +42,7 @@ namespace BCP.Infrastructure
                 optionsBuilder.UseNpgsql(_connectionString).UseSnakeCaseNamingConvention();
             }
         }
+
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

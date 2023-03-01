@@ -98,6 +98,7 @@
 /Users/shreychettri/Desktop/Bike rental back/BCP.Web/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
 /Users/shreychettri/Desktop/Bike rental back/BCP.Web/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll
 /Users/shreychettri/Desktop/Bike rental back/BCP.Web/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/shreychettri/Desktop/Bike rental back/BCP.Web/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.Design.dll
 /Users/shreychettri/Desktop/Bike rental back/BCP.Web/bin/Debug/net6.0/Microsoft.Extensions.Caching.Abstractions.dll
 /Users/shreychettri/Desktop/Bike rental back/BCP.Web/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll
 /Users/shreychettri/Desktop/Bike rental back/BCP.Web/bin/Debug/net6.0/Microsoft.Extensions.Configuration.dll
@@ -135,6 +136,7 @@
 /Users/shreychettri/Desktop/Bike rental back/BCP.Web/bin/Debug/net6.0/Mono.TextTemplating.dll
 /Users/shreychettri/Desktop/Bike rental back/BCP.Web/bin/Debug/net6.0/Npgsql.dll
 /Users/shreychettri/Desktop/Bike rental back/BCP.Web/bin/Debug/net6.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
+/Users/shreychettri/Desktop/Bike rental back/BCP.Web/bin/Debug/net6.0/Npgsql.EntityFrameworkCore.PostgreSQL.Design.dll
 /Users/shreychettri/Desktop/Bike rental back/BCP.Web/bin/Debug/net6.0/Swashbuckle.AspNetCore.Swagger.dll
 /Users/shreychettri/Desktop/Bike rental back/BCP.Web/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll
 /Users/shreychettri/Desktop/Bike rental back/BCP.Web/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll

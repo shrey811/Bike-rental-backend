@@ -2,7 +2,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace BCP.Infrastructure.Repository;
 
-public class BaseRepository<TEntity> where TEntity:class
+public class BaseRepository<TEntity> where TEntity : class
 {
     private readonly AppDbContext _context;
     private readonly DbSet<TEntity> _set;
@@ -36,5 +36,20 @@ public class BaseRepository<TEntity> where TEntity:class
     public IQueryable<TEntity> GetQueryable()
     {
         return _set;
+    }
+
+    public async Task<ICollection<TEntity>> GetAllAsync()
+    {
+        return await _set.ToListAsync();
+    }
+
+    public async Task DeleteAsync(int id)
+    {
+        var entity = await GetByIdAsync(id);
+        if (entity != null)
+        {
+            _set.Remove(entity);
+            await _context.SaveChangesAsync();
+        }
     }
 }

@@ -1,4 +1,5 @@
 using BCP.Core.Entities.user;
+using BCP.Core.Enums;
 
 namespace BCP.Core.Entities;
 
@@ -10,6 +11,7 @@ public class RentEntry
     public DateTime DateTime { get; set; }
     public DateTime RentedUntil { get; set; }
     public string? Remarks { get; set; }
+    public BikeRentalStatus Status { get; set; }  // new property
 
     public User RentedBy { get; set; }
     public User ApprovedBy { get; set; }

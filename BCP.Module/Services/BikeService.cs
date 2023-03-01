@@ -18,14 +18,57 @@ public class BikeService
 
     public async Task<Bike> InsertAsync(BikeInsertDto dto)
     {
-        var brand = await _brandRepository.GetByIdAsync(dto.BrandId) ?? throw new BrandNotFoundException();
+        var brand = await _brandRepository.GetByIdAsync(dto.brandId) ?? throw new BrandNotFoundException();
         var bike = new Bike()
         {
             NumberPlate = dto.NumberPlate,
             Name = dto.Name,
-            Brand = brand
+            Brand = brand,
+            Description = dto.Description,
+            ImageUrl = dto.ImageUrl,
+            Milage = dto.Milage,
+            KmRun = dto.KmRun,
+            BrandId = dto.brandId,
+            Id = dto.Id,
+            Rating = dto.Rating,
+
         };
         await _bikeRepository.InsertAsync(bike);
         return bike;
     }
+   
+    public async Task<BikeInsertDto> GetAsync(int id)
+    {
+        var bike = await _bikeRepository.GetByIdAsync(id);
+
+        if (bike == null)
+        {
+            return null;
+        }
+
+        var brandDto = new BikeInsertDto
+        {
+            Id = bike.Brand.Id,
+            Name = bike.Brand.Name
+        };
+
+        var bikeDto = new BikeInsertDto
+        {
+            Id = bike.Id,
+            
+            Name = bike.Name,
+            NumberPlate = bike.NumberPlate,
+            Description = bike.Description,
+            KmRun = bike.KmRun,
+            Milage = bike.Milage,
+            Rating = bike.Rating,
+            ImageUrl = bike.ImageUrl
+            
+        };
+
+        return bikeDto;
+    }
+   
+   
+   
 }

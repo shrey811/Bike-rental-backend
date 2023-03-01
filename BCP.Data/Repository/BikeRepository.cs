@@ -1,21 +1,17 @@
+using BCP.Core.Dtos;
 using BCP.Core.Entities;
 using BCP.Core.Repository;
+using Microsoft.EntityFrameworkCore;
 
 namespace BCP.Infrastructure.Repository;
 
-public class BikeRepository : IBikeRepository
+public class BikeRepository : BaseRepository<Bike>, IBikeRepository
 {
     private readonly AppDbContext _context;
 
-    public BikeRepository(AppDbContext context)
+    public BikeRepository(AppDbContext context) : base(context)
     {
         _context = context;
     }
-
-    public async Task<Bike> InsertAsync(Bike bike)
-    {
-        await _context.Set<Bike>().AddAsync(bike);
-        await _context.SaveChangesAsync();
-        return bike;
-    }
 }
+
