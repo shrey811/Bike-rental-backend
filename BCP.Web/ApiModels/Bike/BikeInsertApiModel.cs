@@ -1,0 +1,16 @@
+namespace BCP.ApiModels.Bike;
+
+public class BikeInsertApiModel
+{
+    public string Name { get; set; }
+    public string NumberPlate { get; set; }
+    public int brandId { get; set; }
+    public decimal KmRun { get; set; }
+    public string Description { get; set; }
+    public decimal Milage { get; set; }
+    public string ImageUrl { get; set; }
+    public decimal Price { get; set; }
+
+    
+    
+}

@@ -2,6 +2,7 @@
 using System.Security.Claims;
 using System.Text;
 using BCP.ApiModels;
+using BCP.ApiModels.User;
 using BCP.Core.Dtos;
 using BCP.Core.Entities.user;
 using BCP.Core.Helper;

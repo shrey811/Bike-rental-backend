@@ -1,4 +1,5 @@
 using BCP.ApiModels;
+using BCP.ApiModels.Bike;
 using BCP.Core.Dtos;
 using BCP.Core.Repository;
 using BCP.Core.Services;
@@ -20,7 +21,7 @@ public class BikeController : ControllerBase
     }
 
     [HttpPost]
-    public async Task<IActionResult> InsertBike(BikeInsertViewModel model)
+    public async Task<IActionResult> InsertBike(BikeInsertApiModel model)
     {
         var dto = new BikeInsertDto
         {
@@ -30,8 +31,9 @@ public class BikeController : ControllerBase
             Description = model.Description,
             KmRun = model.KmRun,
             Milage = model.Milage,
-            Rating = model.Rating,
-            ImageUrl = model.ImageUrl
+            ImageUrl = model.ImageUrl,
+            Price = model.Price
+            
             
         };
         var bike = await _bikeService.InsertAsync(dto);
@@ -40,11 +42,25 @@ public class BikeController : ControllerBase
     [HttpGet("{id}")]
     public async Task<IActionResult> GetBike(int id)
     {
-        var bike = await _bikeService.GetAsync(id);
+        var bike = await _bikeRepository.GetByIdAsync(id);
         if (bike == null)
         {
             return NotFound();
         }
+
+        var bikeModel = new BikeModel()
+        {
+            brandId = bike.BrandId,
+            Description = bike.Description,
+            KmRun = bike.KmRun,
+            Milage = bike.Milage,
+            ImageUrl = bike.ImageUrl,
+            NumberPlate = bike.NumberPlate,
+            Name = bike.Name,
+            Id = bike.BrandId,
+            Price = bike.Price
+
+        };
         return Ok(bike);
     }
     

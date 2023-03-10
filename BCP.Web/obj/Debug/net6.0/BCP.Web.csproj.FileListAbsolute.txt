@@ -170,3 +170,6 @@
 /Users/shreychettri/Desktop/Bike rental back/BCP.Web/obj/Debug/net6.0/BCP.Web.pdb
 /Users/shreychettri/Desktop/Bike rental back/BCP.Web/obj/Debug/net6.0/BCP.Web.genruntimeconfig.cache
 /Users/shreychettri/Desktop/Bike rental back/BCP.Web/obj/Debug/net6.0/ref/BCP.Web.dll
+/Users/shreychettri/Desktop/Bike rental back/BCP.Web/bin/Debug/net6.0/MailKit.dll
+/Users/shreychettri/Desktop/Bike rental back/BCP.Web/bin/Debug/net6.0/MimeKit.dll
+/Users/shreychettri/Desktop/Bike rental back/BCP.Web/bin/Debug/net6.0/BouncyCastle.Crypto.dll

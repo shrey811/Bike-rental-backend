@@ -10,4 +10,6 @@ public interface IRentRepository
 
     Task<ICollection<RentEntry>> GetAllAsync();
     Task<ICollection<RentEntry>> GetAllRentedAsync();
+    Task<RentEntry?> GetRentedEntryByBikeId(int dtoBikeId);
+    Task<RentEntry> UpdateAsync(RentEntry rentEntry);
 }

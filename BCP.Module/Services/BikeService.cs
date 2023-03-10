@@ -29,46 +29,12 @@ public class BikeService
             Milage = dto.Milage,
             KmRun = dto.KmRun,
             BrandId = dto.brandId,
+            Price = dto.Price,
             Id = dto.Id,
-            Rating = dto.Rating,
+            Rating = 0,
 
         };
         await _bikeRepository.InsertAsync(bike);
         return bike;
     }
-   
-    public async Task<BikeInsertDto> GetAsync(int id)
-    {
-        var bike = await _bikeRepository.GetByIdAsync(id);
-
-        if (bike == null)
-        {
-            return null;
-        }
-
-        var brandDto = new BikeInsertDto
-        {
-            Id = bike.Brand.Id,
-            Name = bike.Brand.Name
-        };
-
-        var bikeDto = new BikeInsertDto
-        {
-            Id = bike.Id,
-            
-            Name = bike.Name,
-            NumberPlate = bike.NumberPlate,
-            Description = bike.Description,
-            KmRun = bike.KmRun,
-            Milage = bike.Milage,
-            Rating = bike.Rating,
-            ImageUrl = bike.ImageUrl
-            
-        };
-
-        return bikeDto;
-    }
-   
-   
-   
 }

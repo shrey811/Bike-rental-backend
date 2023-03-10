@@ -1,4 +1,4 @@
-namespace BCP.ApiModels;
+namespace BCP.ApiModels.User;
 
 public class UserRegisterApiModel
 {

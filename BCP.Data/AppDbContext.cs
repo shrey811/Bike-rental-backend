@@ -1,5 +1,6 @@
 using BCP.Core.Entities;
 using BCP.Core.Entities.user;
+using BCP.Core.Enums;
 using BCP.Data.Configurations;
 using BCP.Infrastructure.Configurations;
 using Microsoft.EntityFrameworkCore;
@@ -13,8 +14,8 @@ namespace BCP.Infrastructure
     {
         private readonly string _connectionString;
 
-        public DbSet<Bike> Bikes { get; set; }
-        public DbSet<User> Users { get; set; }
+        public DbSet<OtpCode> Otp { get; set; }
+        public DbSet<RentEntry> Rent { get; set; }
         // add more DbSets for other entities
 
         public AppDbContext(DbContextOptions<AppDbContext> options, IOptions<DbConfig> dbConfig) : base(options)
@@ -30,7 +31,8 @@ namespace BCP.Infrastructure
                 Database = dbConfig.Database,
                 Username = dbConfig.User,
                 Password = dbConfig.Password,
-                Port = dbConfig.Port
+                Port = dbConfig.Port,
+                IncludeErrorDetail = true
             };
             return builder.ConnectionString;
         }
@@ -46,7 +48,13 @@ namespace BCP.Infrastructure
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+           
+        
+            // Apply other configurations for other entities
             modelBuilder.ApplyConfiguration(new UserConfiguration());
+            modelBuilder.ApplyConfiguration(new BikeConfiguration());
+            modelBuilder.ApplyConfiguration(new RentEntryConfiguration());
+
         }
     }
 }
