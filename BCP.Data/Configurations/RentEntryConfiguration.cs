@@ -13,5 +13,6 @@ public class RentEntryConfiguration : IEntityTypeConfiguration<RentEntry>
         _ = builder.ToTable("rental_entries");
 
         _ = builder.Property(r => r.Status).HasConversion(new EnumConverter<BikeRentalStatus>());
+       
     }
 }

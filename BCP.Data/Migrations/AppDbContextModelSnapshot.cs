@@ -87,7 +87,7 @@ namespace BCP.Infrastructure.Migrations
                     b.HasIndex("BrandId")
                         .HasDatabaseName("ix_bikes_brand_id");
 
-                    b.ToTable("Bikes", (string)null);
+                    b.ToTable("bikes", (string)null);
                 });
 
             modelBuilder.Entity("BCP.Core.Entities.Brand", b =>
@@ -155,6 +155,10 @@ namespace BCP.Infrastructure.Migrations
                     b.Property<int>("BikeId")
                         .HasColumnType("integer")
                         .HasColumnName("bike_id");
+
+                    b.Property<int>("Price")
+                        .HasColumnType("integer")
+                        .HasColumnName("price");
 
                     b.Property<string>("Remarks")
                         .HasColumnType("text")

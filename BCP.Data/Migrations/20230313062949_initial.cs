@@ -14,19 +14,6 @@ namespace BCP.Infrastructure.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "bike_rental_status",
-                columns: table => new
-                {
-                    id = table.Column<int>(type: "integer", nullable: false)
-                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
-                    value = table.Column<string>(type: "text", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("pk_bike_rental_status", x => x.id);
-                });
-
-            migrationBuilder.CreateTable(
                 name: "brand",
                 columns: table => new
                 {
@@ -74,7 +61,7 @@ namespace BCP.Infrastructure.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Bikes",
+                name: "bikes",
                 columns: table => new
                 {
                     id = table.Column<int>(type: "integer", nullable: false)
@@ -102,7 +89,7 @@ namespace BCP.Infrastructure.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "rent",
+                name: "rental_entries",
                 columns: table => new
                 {
                     id = table.Column<int>(type: "integer", nullable: false)
@@ -112,25 +99,20 @@ namespace BCP.Infrastructure.Migrations
                     rented_on = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
                     rented_until = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
                     remarks = table.Column<string>(type: "text", nullable: true),
-                    status_id = table.Column<int>(type: "integer", nullable: false)
+                    status = table.Column<string>(type: "text", nullable: false),
+                    price = table.Column<int>(type: "integer", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("pk_rent", x => x.id);
+                    table.PrimaryKey("pk_rental_entries", x => x.id);
                     table.ForeignKey(
-                        name: "fk_rent_bike_bike_id",
+                        name: "fk_rental_entries_bikes_bike_id",
                         column: x => x.bike_id,
-                        principalTable: "Bikes",
+                        principalTable: "bikes",
                         principalColumn: "id",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "fk_rent_bike_rental_status_status_id",
-                        column: x => x.status_id,
-                        principalTable: "bike_rental_status",
-                        principalColumn: "id",
-                        onDelete: ReferentialAction.Cascade);
-                    table.ForeignKey(
-                        name: "fk_rent_user_user_id",
+                        name: "fk_rental_entries_users_user_id",
                         column: x => x.user_id,
                         principalTable: "users",
                         principalColumn: "id",
@@ -139,22 +121,17 @@ namespace BCP.Infrastructure.Migrations
 
             migrationBuilder.CreateIndex(
                 name: "ix_bikes_brand_id",
-                table: "Bikes",
+                table: "bikes",
                 column: "brand_id");
 
             migrationBuilder.CreateIndex(
-                name: "ix_rent_bike_id",
-                table: "rent",
+                name: "ix_rental_entries_bike_id",
+                table: "rental_entries",
                 column: "bike_id");
 
             migrationBuilder.CreateIndex(
-                name: "ix_rent_status_id",
-                table: "rent",
-                column: "status_id");
-
-            migrationBuilder.CreateIndex(
-                name: "ix_rent_user_id",
-                table: "rent",
+                name: "ix_rental_entries_user_id",
+                table: "rental_entries",
                 column: "user_id");
         }
 
@@ -165,13 +142,10 @@ namespace BCP.Infrastructure.Migrations
                 name: "otp");
 
             migrationBuilder.DropTable(
-                name: "rent");
+                name: "rental_entries");
 
             migrationBuilder.DropTable(
-                name: "Bikes");
-
-            migrationBuilder.DropTable(
-                name: "bike_rental_status");
+                name: "bikes");
 
             migrationBuilder.DropTable(
                 name: "users");

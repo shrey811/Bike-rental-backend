@@ -13,8 +13,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace BCP.Infrastructure.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20230307112528_Removed rent status table")]
-    partial class Removedrentstatustable
+    [Migration("20230313062949_initial")]
+    partial class initial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -90,7 +90,7 @@ namespace BCP.Infrastructure.Migrations
                     b.HasIndex("BrandId")
                         .HasDatabaseName("ix_bikes_brand_id");
 
-                    b.ToTable("Bikes", (string)null);
+                    b.ToTable("bikes", (string)null);
                 });
 
             modelBuilder.Entity("BCP.Core.Entities.Brand", b =>
@@ -159,6 +159,10 @@ namespace BCP.Infrastructure.Migrations
                         .HasColumnType("integer")
                         .HasColumnName("bike_id");
 
+                    b.Property<int>("Price")
+                        .HasColumnType("integer")
+                        .HasColumnName("price");
+
                     b.Property<string>("Remarks")
                         .HasColumnType("text")
                         .HasColumnName("remarks");
@@ -171,27 +175,25 @@ namespace BCP.Infrastructure.Migrations
                         .HasColumnType("timestamp with time zone")
                         .HasColumnName("rented_until");
 
-                    b.Property<int>("StatusId")
-                        .HasColumnType("integer")
-                        .HasColumnName("status_id");
+                    b.Property<string>("Status")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("status");
 
                     b.Property<int>("UserId")
                         .HasColumnType("integer")
                         .HasColumnName("user_id");
 
                     b.HasKey("Id")
-                        .HasName("pk_rent");
+                        .HasName("pk_rental_entries");
 
                     b.HasIndex("BikeId")
-                        .HasDatabaseName("ix_rent_bike_id");
-
-                    b.HasIndex("StatusId")
-                        .HasDatabaseName("ix_rent_status_id");
+                        .HasDatabaseName("ix_rental_entries_bike_id");
 
                     b.HasIndex("UserId")
-                        .HasDatabaseName("ix_rent_user_id");
+                        .HasDatabaseName("ix_rental_entries_user_id");
 
-                    b.ToTable("rent", (string)null);
+                    b.ToTable("rental_entries", (string)null);
                 });
 
             modelBuilder.Entity("BCP.Core.Entities.user.User", b =>
@@ -236,26 +238,6 @@ namespace BCP.Infrastructure.Migrations
                     b.ToTable("users", (string)null);
                 });
 
-            modelBuilder.Entity("BCP.Core.Enums.BikeRentalStatus", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("integer")
-                        .HasColumnName("id");
-
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("Value")
-                        .IsRequired()
-                        .HasColumnType("text")
-                        .HasColumnName("value");
-
-                    b.HasKey("Id")
-                        .HasName("pk_bike_rental_status");
-
-                    b.ToTable("bike_rental_status", (string)null);
-                });
-
             modelBuilder.Entity("BCP.Core.Entities.Bike", b =>
                 {
                     b.HasOne("BCP.Core.Entities.Brand", "Brand")
@@ -275,27 +257,18 @@ namespace BCP.Infrastructure.Migrations
                         .HasForeignKey("BikeId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired()
-                        .HasConstraintName("fk_rent_bike_bike_id");
-
-                    b.HasOne("BCP.Core.Enums.BikeRentalStatus", "Status")
-                        .WithMany()
-                        .HasForeignKey("StatusId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired()
-                        .HasConstraintName("fk_rent_bike_rental_status_status_id");
+                        .HasConstraintName("fk_rental_entries_bikes_bike_id");
 
                     b.HasOne("BCP.Core.Entities.user.User", "RentedBy")
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired()
-                        .HasConstraintName("fk_rent_user_user_id");
+                        .HasConstraintName("fk_rental_entries_users_user_id");
 
                     b.Navigation("Bike");
 
                     b.Navigation("RentedBy");
-
-                    b.Navigation("Status");
                 });
 #pragma warning restore 612, 618
         }

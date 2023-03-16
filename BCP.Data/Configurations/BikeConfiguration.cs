@@ -10,7 +10,7 @@ namespace BCP.Data.Configurations
     {
         public void Configure(EntityTypeBuilder<Bike> builder)
         {
-            builder.ToTable("Bikes");
+            builder.ToTable("bikes");
 
             builder.HasKey(x => x.Id);
 

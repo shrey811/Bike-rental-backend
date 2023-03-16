@@ -62,8 +62,10 @@
                      {
                          BikeId = bike.Id,
                          UserId = model.UserId,
-                         RentedUntil = model.RentedUntil,
-                         DateTime = model.DateTime
+                         RentedUntil = model.RentedUntil, 
+                         RentedOn= model.RentedOn,
+                         Remarks = model.Remarks,
+                         Price = model.Price
                      };
          
                      await _rentService.RentBikeAsync(rentEntry);
@@ -78,8 +80,8 @@
                  // public async Task<ActionResult<Bike>> ReturnBike(ReturnApiModel model)
                  // {
                  //     var bike = await _bikeRepository.GetByIdAsync(model.BikeId);
-                 //     await _rentService.ReturnBikeAsync(bike)
-                 //     var dto = new RentalReturnDto
+                 //     await _rentService.ReturnBikeAsync(bike);
+                 //     
                  // }
              }
          }

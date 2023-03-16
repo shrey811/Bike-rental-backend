@@ -42,7 +42,8 @@ namespace BCP.Core.Services
                 Bike = bike,
                 Remarks = dto.Remarks,
                 RentedUntil = dto.RentedUntil,
-                RentedOn = dto.DateTime ?? DateTime.UtcNow
+                RentedOn = dto.RentedOn ?? DateTime.UtcNow,
+                Price = dto.Price
             };
             
             await _bikeRepository.UpdateAsync(bike);

@@ -14,5 +14,6 @@ public class RentEntry
     public BikeRentalStatus Status { get; set; }
     public Bike Bike { get; set; }
     public User RentedBy { get; set; }
+    public int Price { get; set; }
 }
 
