@@ -1,10 +1,7 @@
 using BCP.Core.Entities;
-using BCP.Core.Entities.user;
-using BCP.Core.Enums;
 using BCP.Data.Configurations;
 using BCP.Infrastructure.Configurations;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Npgsql;
 
@@ -16,6 +13,7 @@ namespace BCP.Infrastructure
 
         public DbSet<OtpCode> Otp { get; set; }
         public DbSet<RentEntry> Rent { get; set; }
+        public  DbSet<Review> Reviews { get; set; }
         // add more DbSets for other entities
 
         public AppDbContext(DbContextOptions<AppDbContext> options, IOptions<DbConfig> dbConfig) : base(options)
@@ -54,6 +52,7 @@ namespace BCP.Infrastructure
             modelBuilder.ApplyConfiguration(new UserConfiguration());
             modelBuilder.ApplyConfiguration(new BikeConfiguration());
             modelBuilder.ApplyConfiguration(new RentEntryConfiguration());
+            modelBuilder.ApplyConfiguration(new ReviewConfiguration());
 
         }
     }

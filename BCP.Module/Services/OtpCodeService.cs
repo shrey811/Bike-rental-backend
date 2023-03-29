@@ -23,7 +23,7 @@ namespace BCP.Core.Services
             {
                 Email = email,
                 Code = otpCode,
-               
+               CreatedAt = DateTime.UtcNow
               
             };
             await _otpRepository.InsertAsync(otpEntity);

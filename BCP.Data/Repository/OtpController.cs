@@ -52,6 +52,16 @@ namespace BCP.Infrastructure.Repository;
             }
         }
 
+        public async Task<bool> CheckOtp(string otpCode)
+        {
+          var datas= await _context.Otp.FirstOrDefaultAsync(x => x.Code == otpCode);
+          if (datas == null)
+          {
+              return false;
+          }
+          return true;
+        }
+
         // public async Task InsertAsync(OtpCode otpCode)
         // {
         //     await base.InsertAsync(otpCode);

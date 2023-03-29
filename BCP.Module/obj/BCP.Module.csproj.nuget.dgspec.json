@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/Users/shreychettri/Desktop/Bike rental back/BCP.Module/BCP.Module.csproj": {}
+    "D:\\Bike-rental-backend\\BCP.Module\\BCP.Module.csproj": {}
   },
   "projects": {
-    "/Users/shreychettri/Desktop/Bike rental back/BCP.Module/BCP.Module.csproj": {
+    "D:\\Bike-rental-backend\\BCP.Module\\BCP.Module.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/shreychettri/Desktop/Bike rental back/BCP.Module/BCP.Module.csproj",
+        "projectUniqueName": "D:\\Bike-rental-backend\\BCP.Module\\BCP.Module.csproj",
         "projectName": "BCP.Module",
-        "projectPath": "/Users/shreychettri/Desktop/Bike rental back/BCP.Module/BCP.Module.csproj",
-        "packagesPath": "/Users/shreychettri/.nuget/packages/",
-        "outputPath": "/Users/shreychettri/Desktop/Bike rental back/BCP.Module/obj/",
+        "projectPath": "D:\\Bike-rental-backend\\BCP.Module\\BCP.Module.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "D:\\Bike-rental-backend\\BCP.Module\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/shreychettri/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -59,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.406/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

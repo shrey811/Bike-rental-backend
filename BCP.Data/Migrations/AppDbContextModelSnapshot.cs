@@ -193,6 +193,37 @@ namespace BCP.Infrastructure.Migrations
                     b.ToTable("rental_entries", (string)null);
                 });
 
+            modelBuilder.Entity("BCP.Core.Entities.Review", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer")
+                        .HasColumnName("id");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("BikeId")
+                        .HasColumnType("integer")
+                        .HasColumnName("bike_id");
+
+                    b.Property<string>("Message")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("message");
+
+                    b.Property<int>("Rating")
+                        .HasColumnType("integer")
+                        .HasColumnName("rating");
+
+                    b.HasKey("Id")
+                        .HasName("pk_reviews");
+
+                    b.HasIndex("BikeId")
+                        .HasDatabaseName("ix_reviews_bike_id");
+
+                    b.ToTable("reviews", (string)null);
+                });
+
             modelBuilder.Entity("BCP.Core.Entities.user.User", b =>
                 {
                     b.Property<int>("Id")
@@ -266,6 +297,23 @@ namespace BCP.Infrastructure.Migrations
                     b.Navigation("Bike");
 
                     b.Navigation("RentedBy");
+                });
+
+            modelBuilder.Entity("BCP.Core.Entities.Review", b =>
+                {
+                    b.HasOne("BCP.Core.Entities.Bike", "Bike")
+                        .WithMany("Reviews")
+                        .HasForeignKey("BikeId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired()
+                        .HasConstraintName("bike_id_fk");
+
+                    b.Navigation("Bike");
+                });
+
+            modelBuilder.Entity("BCP.Core.Entities.Bike", b =>
+                {
+                    b.Navigation("Reviews");
                 });
 #pragma warning restore 612, 618
         }

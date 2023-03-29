@@ -2,8 +2,8 @@
     using BCP.ApiModels;
     using BCP.Core.Services;
     using Microsoft.AspNetCore.Mvc;
-    using System.Threading.Tasks;
     using BCP.ApiModels.User;
+    using BCP.Core.Repository;
 
     namespace BCP.Controllers
     {
@@ -12,12 +12,12 @@
         public class OtpController : ControllerBase
         {
             private readonly OtpService _otpService;
-            // private readonly IOtpRepository _otpRepository;
+             private readonly IOtpRepository _otpRepository;
 
-            public OtpController(OtpService otpService, OtpService otpRepository)
+            public OtpController(OtpService otpService, IOtpRepository otpRepository)
             {
                 _otpService = otpService;
-                // _otpRepository = otpRepository;
+                 _otpRepository = otpRepository;
             }
 
             [HttpPost]
@@ -33,6 +33,11 @@
                 };
 
                 return Ok(otpModel);
+            }
+            [HttpGet("{otpcode}")]
+            public async Task<ActionResult<bool>> GenerateOtp(string otpcode)
+            {
+                return await _otpRepository.CheckOtp(otpcode);
             }
         }
     }

@@ -1,175 +1,95 @@
-/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Web/bin/Debug/net6.0/appsettings.Development.json
-/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Web/bin/Debug/net6.0/appsettings.json
-/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Web/bin/Debug/net6.0/BCP.Web
-/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Web/bin/Debug/net6.0/BCP.Web.deps.json
-/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Web/bin/Debug/net6.0/BCP.Web.runtimeconfig.json
-/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Web/bin/Debug/net6.0/BCP.Web.dll
-/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Web/bin/Debug/net6.0/BCP.Web.pdb
-/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Web/bin/Debug/net6.0/EFCore.NamingConventions.dll
-/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Web/bin/Debug/net6.0/Humanizer.dll
-/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Web/bin/Debug/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
-/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Web/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
-/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Web/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
-/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Web/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll
-/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Web/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll
-/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Web/bin/Debug/net6.0/Microsoft.Extensions.Caching.Abstractions.dll
-/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Web/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll
-/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Web/bin/Debug/net6.0/Microsoft.Extensions.Configuration.dll
-/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Web/bin/Debug/net6.0/Microsoft.Extensions.Configuration.Abstractions.dll
-/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Web/bin/Debug/net6.0/Microsoft.Extensions.Configuration.Binder.dll
-/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Web/bin/Debug/net6.0/Microsoft.Extensions.Configuration.CommandLine.dll
-/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Web/bin/Debug/net6.0/Microsoft.Extensions.Configuration.EnvironmentVariables.dll
-/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Web/bin/Debug/net6.0/Microsoft.Extensions.Configuration.FileExtensions.dll
-/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Web/bin/Debug/net6.0/Microsoft.Extensions.Configuration.Json.dll
-/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Web/bin/Debug/net6.0/Microsoft.Extensions.Configuration.UserSecrets.dll
-/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Web/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.dll
-/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Web/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
-/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Web/bin/Debug/net6.0/Microsoft.Extensions.DependencyModel.dll
-/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Web/bin/Debug/net6.0/Microsoft.Extensions.FileProviders.Abstractions.dll
-/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Web/bin/Debug/net6.0/Microsoft.Extensions.FileProviders.Physical.dll
-/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Web/bin/Debug/net6.0/Microsoft.Extensions.FileSystemGlobbing.dll
-/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Web/bin/Debug/net6.0/Microsoft.Extensions.Hosting.dll
-/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Web/bin/Debug/net6.0/Microsoft.Extensions.Hosting.Abstractions.dll
-/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Web/bin/Debug/net6.0/Microsoft.Extensions.Logging.dll
-/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Web/bin/Debug/net6.0/Microsoft.Extensions.Logging.Abstractions.dll
-/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Web/bin/Debug/net6.0/Microsoft.Extensions.Logging.Configuration.dll
-/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Web/bin/Debug/net6.0/Microsoft.Extensions.Logging.Console.dll
-/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Web/bin/Debug/net6.0/Microsoft.Extensions.Logging.Debug.dll
-/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Web/bin/Debug/net6.0/Microsoft.Extensions.Logging.EventLog.dll
-/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Web/bin/Debug/net6.0/Microsoft.Extensions.Logging.EventSource.dll
-/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Web/bin/Debug/net6.0/Microsoft.Extensions.Options.dll
-/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Web/bin/Debug/net6.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll
-/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Web/bin/Debug/net6.0/Microsoft.Extensions.Primitives.dll
-/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Web/bin/Debug/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll
-/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Web/bin/Debug/net6.0/Microsoft.IdentityModel.Logging.dll
-/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Web/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.dll
-/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Web/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Web/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll
-/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Web/bin/Debug/net6.0/Microsoft.OpenApi.dll
-/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Web/bin/Debug/net6.0/Mono.TextTemplating.dll
-/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Web/bin/Debug/net6.0/Npgsql.dll
-/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Web/bin/Debug/net6.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
-/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Web/bin/Debug/net6.0/Swashbuckle.AspNetCore.Swagger.dll
-/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Web/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll
-/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Web/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll
-/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Web/bin/Debug/net6.0/System.CodeDom.dll
-/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Web/bin/Debug/net6.0/System.Diagnostics.DiagnosticSource.dll
-/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Web/bin/Debug/net6.0/System.Diagnostics.EventLog.dll
-/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Web/bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll
-/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Web/bin/Debug/net6.0/System.Runtime.CompilerServices.Unsafe.dll
-/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Web/bin/Debug/net6.0/System.Text.Encodings.Web.dll
-/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Web/bin/Debug/net6.0/System.Text.Json.dll
-/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Web/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Diagnostics.EventLog.Messages.dll
-/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Web/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Diagnostics.EventLog.dll
-/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Web/bin/Debug/net6.0/runtimes/browser/lib/net6.0/System.Text.Encodings.Web.dll
-/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Web/bin/Debug/net6.0/BCP.Data.dll
-/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Web/bin/Debug/net6.0/BCP.Module.dll
-/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Web/bin/Debug/net6.0/BCP.Data.pdb
-/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Web/bin/Debug/net6.0/BCP.Module.pdb
-/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Web/obj/Debug/net6.0/BCP.Web.csproj.AssemblyReference.cache
-/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Web/obj/Debug/net6.0/BCP.Web.GeneratedMSBuildEditorConfig.editorconfig
-/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Web/obj/Debug/net6.0/BCP.Web.AssemblyInfoInputs.cache
-/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Web/obj/Debug/net6.0/BCP.Web.AssemblyInfo.cs
-/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Web/obj/Debug/net6.0/BCP.Web.csproj.CoreCompileInputs.cache
-/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Web/obj/Debug/net6.0/BCP.Web.MvcApplicationPartsAssemblyInfo.cs
-/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Web/obj/Debug/net6.0/BCP.Web.MvcApplicationPartsAssemblyInfo.cache
-/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Web/obj/Debug/net6.0/staticwebassets.build.json
-/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Web/obj/Debug/net6.0/staticwebassets.development.json
-/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Web/obj/Debug/net6.0/scopedcss/bundle/BCP.Web.styles.css
-/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Web/obj/Debug/net6.0/BCP.Web.csproj.CopyComplete
-/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Web/obj/Debug/net6.0/BCP.Web.dll
-/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Web/obj/Debug/net6.0/refint/BCP.Web.dll
-/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Web/obj/Debug/net6.0/BCP.Web.pdb
-/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Web/obj/Debug/net6.0/BCP.Web.genruntimeconfig.cache
-/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Web/obj/Debug/net6.0/ref/BCP.Web.dll
-/Users/shreychettri/Desktop/BikerChoiceProject/BCP.Web/bin/Debug/net6.0/BCP.Web.staticwebassets.runtime.json
-/Users/shreychettri/Desktop/Bike rental back/BCP.Web/bin/Debug/net6.0/appsettings.Development.json
-/Users/shreychettri/Desktop/Bike rental back/BCP.Web/bin/Debug/net6.0/appsettings.json
-/Users/shreychettri/Desktop/Bike rental back/BCP.Web/bin/Debug/net6.0/BCP.Web.staticwebassets.runtime.json
-/Users/shreychettri/Desktop/Bike rental back/BCP.Web/bin/Debug/net6.0/BCP.Web
-/Users/shreychettri/Desktop/Bike rental back/BCP.Web/bin/Debug/net6.0/BCP.Web.deps.json
-/Users/shreychettri/Desktop/Bike rental back/BCP.Web/bin/Debug/net6.0/BCP.Web.runtimeconfig.json
-/Users/shreychettri/Desktop/Bike rental back/BCP.Web/bin/Debug/net6.0/BCP.Web.dll
-/Users/shreychettri/Desktop/Bike rental back/BCP.Web/bin/Debug/net6.0/BCP.Web.pdb
-/Users/shreychettri/Desktop/Bike rental back/BCP.Web/bin/Debug/net6.0/EFCore.NamingConventions.dll
-/Users/shreychettri/Desktop/Bike rental back/BCP.Web/bin/Debug/net6.0/Humanizer.dll
-/Users/shreychettri/Desktop/Bike rental back/BCP.Web/bin/Debug/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
-/Users/shreychettri/Desktop/Bike rental back/BCP.Web/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
-/Users/shreychettri/Desktop/Bike rental back/BCP.Web/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
-/Users/shreychettri/Desktop/Bike rental back/BCP.Web/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll
-/Users/shreychettri/Desktop/Bike rental back/BCP.Web/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll
-/Users/shreychettri/Desktop/Bike rental back/BCP.Web/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.Design.dll
-/Users/shreychettri/Desktop/Bike rental back/BCP.Web/bin/Debug/net6.0/Microsoft.Extensions.Caching.Abstractions.dll
-/Users/shreychettri/Desktop/Bike rental back/BCP.Web/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll
-/Users/shreychettri/Desktop/Bike rental back/BCP.Web/bin/Debug/net6.0/Microsoft.Extensions.Configuration.dll
-/Users/shreychettri/Desktop/Bike rental back/BCP.Web/bin/Debug/net6.0/Microsoft.Extensions.Configuration.Abstractions.dll
-/Users/shreychettri/Desktop/Bike rental back/BCP.Web/bin/Debug/net6.0/Microsoft.Extensions.Configuration.Binder.dll
-/Users/shreychettri/Desktop/Bike rental back/BCP.Web/bin/Debug/net6.0/Microsoft.Extensions.Configuration.CommandLine.dll
-/Users/shreychettri/Desktop/Bike rental back/BCP.Web/bin/Debug/net6.0/Microsoft.Extensions.Configuration.EnvironmentVariables.dll
-/Users/shreychettri/Desktop/Bike rental back/BCP.Web/bin/Debug/net6.0/Microsoft.Extensions.Configuration.FileExtensions.dll
-/Users/shreychettri/Desktop/Bike rental back/BCP.Web/bin/Debug/net6.0/Microsoft.Extensions.Configuration.Json.dll
-/Users/shreychettri/Desktop/Bike rental back/BCP.Web/bin/Debug/net6.0/Microsoft.Extensions.Configuration.UserSecrets.dll
-/Users/shreychettri/Desktop/Bike rental back/BCP.Web/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.dll
-/Users/shreychettri/Desktop/Bike rental back/BCP.Web/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
-/Users/shreychettri/Desktop/Bike rental back/BCP.Web/bin/Debug/net6.0/Microsoft.Extensions.DependencyModel.dll
-/Users/shreychettri/Desktop/Bike rental back/BCP.Web/bin/Debug/net6.0/Microsoft.Extensions.FileProviders.Abstractions.dll
-/Users/shreychettri/Desktop/Bike rental back/BCP.Web/bin/Debug/net6.0/Microsoft.Extensions.FileProviders.Physical.dll
-/Users/shreychettri/Desktop/Bike rental back/BCP.Web/bin/Debug/net6.0/Microsoft.Extensions.FileSystemGlobbing.dll
-/Users/shreychettri/Desktop/Bike rental back/BCP.Web/bin/Debug/net6.0/Microsoft.Extensions.Hosting.dll
-/Users/shreychettri/Desktop/Bike rental back/BCP.Web/bin/Debug/net6.0/Microsoft.Extensions.Hosting.Abstractions.dll
-/Users/shreychettri/Desktop/Bike rental back/BCP.Web/bin/Debug/net6.0/Microsoft.Extensions.Logging.dll
-/Users/shreychettri/Desktop/Bike rental back/BCP.Web/bin/Debug/net6.0/Microsoft.Extensions.Logging.Abstractions.dll
-/Users/shreychettri/Desktop/Bike rental back/BCP.Web/bin/Debug/net6.0/Microsoft.Extensions.Logging.Configuration.dll
-/Users/shreychettri/Desktop/Bike rental back/BCP.Web/bin/Debug/net6.0/Microsoft.Extensions.Logging.Console.dll
-/Users/shreychettri/Desktop/Bike rental back/BCP.Web/bin/Debug/net6.0/Microsoft.Extensions.Logging.Debug.dll
-/Users/shreychettri/Desktop/Bike rental back/BCP.Web/bin/Debug/net6.0/Microsoft.Extensions.Logging.EventLog.dll
-/Users/shreychettri/Desktop/Bike rental back/BCP.Web/bin/Debug/net6.0/Microsoft.Extensions.Logging.EventSource.dll
-/Users/shreychettri/Desktop/Bike rental back/BCP.Web/bin/Debug/net6.0/Microsoft.Extensions.Options.dll
-/Users/shreychettri/Desktop/Bike rental back/BCP.Web/bin/Debug/net6.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll
-/Users/shreychettri/Desktop/Bike rental back/BCP.Web/bin/Debug/net6.0/Microsoft.Extensions.Primitives.dll
-/Users/shreychettri/Desktop/Bike rental back/BCP.Web/bin/Debug/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll
-/Users/shreychettri/Desktop/Bike rental back/BCP.Web/bin/Debug/net6.0/Microsoft.IdentityModel.Logging.dll
-/Users/shreychettri/Desktop/Bike rental back/BCP.Web/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.dll
-/Users/shreychettri/Desktop/Bike rental back/BCP.Web/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-/Users/shreychettri/Desktop/Bike rental back/BCP.Web/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll
-/Users/shreychettri/Desktop/Bike rental back/BCP.Web/bin/Debug/net6.0/Microsoft.OpenApi.dll
-/Users/shreychettri/Desktop/Bike rental back/BCP.Web/bin/Debug/net6.0/Mono.TextTemplating.dll
-/Users/shreychettri/Desktop/Bike rental back/BCP.Web/bin/Debug/net6.0/Npgsql.dll
-/Users/shreychettri/Desktop/Bike rental back/BCP.Web/bin/Debug/net6.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
-/Users/shreychettri/Desktop/Bike rental back/BCP.Web/bin/Debug/net6.0/Npgsql.EntityFrameworkCore.PostgreSQL.Design.dll
-/Users/shreychettri/Desktop/Bike rental back/BCP.Web/bin/Debug/net6.0/Swashbuckle.AspNetCore.Swagger.dll
-/Users/shreychettri/Desktop/Bike rental back/BCP.Web/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll
-/Users/shreychettri/Desktop/Bike rental back/BCP.Web/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll
-/Users/shreychettri/Desktop/Bike rental back/BCP.Web/bin/Debug/net6.0/System.CodeDom.dll
-/Users/shreychettri/Desktop/Bike rental back/BCP.Web/bin/Debug/net6.0/System.Diagnostics.DiagnosticSource.dll
-/Users/shreychettri/Desktop/Bike rental back/BCP.Web/bin/Debug/net6.0/System.Diagnostics.EventLog.dll
-/Users/shreychettri/Desktop/Bike rental back/BCP.Web/bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll
-/Users/shreychettri/Desktop/Bike rental back/BCP.Web/bin/Debug/net6.0/System.Runtime.CompilerServices.Unsafe.dll
-/Users/shreychettri/Desktop/Bike rental back/BCP.Web/bin/Debug/net6.0/System.Text.Encodings.Web.dll
-/Users/shreychettri/Desktop/Bike rental back/BCP.Web/bin/Debug/net6.0/System.Text.Json.dll
-/Users/shreychettri/Desktop/Bike rental back/BCP.Web/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Diagnostics.EventLog.Messages.dll
-/Users/shreychettri/Desktop/Bike rental back/BCP.Web/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Diagnostics.EventLog.dll
-/Users/shreychettri/Desktop/Bike rental back/BCP.Web/bin/Debug/net6.0/runtimes/browser/lib/net6.0/System.Text.Encodings.Web.dll
-/Users/shreychettri/Desktop/Bike rental back/BCP.Web/bin/Debug/net6.0/BCP.Data.dll
-/Users/shreychettri/Desktop/Bike rental back/BCP.Web/bin/Debug/net6.0/BCP.Module.dll
-/Users/shreychettri/Desktop/Bike rental back/BCP.Web/bin/Debug/net6.0/BCP.Data.pdb
-/Users/shreychettri/Desktop/Bike rental back/BCP.Web/bin/Debug/net6.0/BCP.Module.pdb
-/Users/shreychettri/Desktop/Bike rental back/BCP.Web/obj/Debug/net6.0/BCP.Web.csproj.AssemblyReference.cache
-/Users/shreychettri/Desktop/Bike rental back/BCP.Web/obj/Debug/net6.0/BCP.Web.GeneratedMSBuildEditorConfig.editorconfig
-/Users/shreychettri/Desktop/Bike rental back/BCP.Web/obj/Debug/net6.0/BCP.Web.AssemblyInfoInputs.cache
-/Users/shreychettri/Desktop/Bike rental back/BCP.Web/obj/Debug/net6.0/BCP.Web.AssemblyInfo.cs
-/Users/shreychettri/Desktop/Bike rental back/BCP.Web/obj/Debug/net6.0/BCP.Web.csproj.CoreCompileInputs.cache
-/Users/shreychettri/Desktop/Bike rental back/BCP.Web/obj/Debug/net6.0/BCP.Web.MvcApplicationPartsAssemblyInfo.cs
-/Users/shreychettri/Desktop/Bike rental back/BCP.Web/obj/Debug/net6.0/BCP.Web.MvcApplicationPartsAssemblyInfo.cache
-/Users/shreychettri/Desktop/Bike rental back/BCP.Web/obj/Debug/net6.0/staticwebassets.build.json
-/Users/shreychettri/Desktop/Bike rental back/BCP.Web/obj/Debug/net6.0/staticwebassets.development.json
-/Users/shreychettri/Desktop/Bike rental back/BCP.Web/obj/Debug/net6.0/scopedcss/bundle/BCP.Web.styles.css
-/Users/shreychettri/Desktop/Bike rental back/BCP.Web/obj/Debug/net6.0/BCP.Web.csproj.CopyComplete
-/Users/shreychettri/Desktop/Bike rental back/BCP.Web/obj/Debug/net6.0/BCP.Web.dll
-/Users/shreychettri/Desktop/Bike rental back/BCP.Web/obj/Debug/net6.0/refint/BCP.Web.dll
-/Users/shreychettri/Desktop/Bike rental back/BCP.Web/obj/Debug/net6.0/BCP.Web.pdb
-/Users/shreychettri/Desktop/Bike rental back/BCP.Web/obj/Debug/net6.0/BCP.Web.genruntimeconfig.cache
-/Users/shreychettri/Desktop/Bike rental back/BCP.Web/obj/Debug/net6.0/ref/BCP.Web.dll
-/Users/shreychettri/Desktop/Bike rental back/BCP.Web/bin/Debug/net6.0/MailKit.dll
-/Users/shreychettri/Desktop/Bike rental back/BCP.Web/bin/Debug/net6.0/MimeKit.dll
-/Users/shreychettri/Desktop/Bike rental back/BCP.Web/bin/Debug/net6.0/BouncyCastle.Crypto.dll
+D:\Bike-rental-backend\BCP.Web\bin\Debug\net6.0\appsettings.Development.json
+D:\Bike-rental-backend\BCP.Web\bin\Debug\net6.0\appsettings.json
+D:\Bike-rental-backend\BCP.Web\bin\Debug\net6.0\BCP.Web.exe
+D:\Bike-rental-backend\BCP.Web\bin\Debug\net6.0\BCP.Web.deps.json
+D:\Bike-rental-backend\BCP.Web\bin\Debug\net6.0\BCP.Web.runtimeconfig.json
+D:\Bike-rental-backend\BCP.Web\bin\Debug\net6.0\BCP.Web.dll
+D:\Bike-rental-backend\BCP.Web\bin\Debug\net6.0\BCP.Web.pdb
+D:\Bike-rental-backend\BCP.Web\bin\Debug\net6.0\EFCore.NamingConventions.dll
+D:\Bike-rental-backend\BCP.Web\bin\Debug\net6.0\Humanizer.dll
+D:\Bike-rental-backend\BCP.Web\bin\Debug\net6.0\MailKit.dll
+D:\Bike-rental-backend\BCP.Web\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Bike-rental-backend\BCP.Web\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Bike-rental-backend\BCP.Web\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Bike-rental-backend\BCP.Web\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Bike-rental-backend\BCP.Web\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Bike-rental-backend\BCP.Web\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
+D:\Bike-rental-backend\BCP.Web\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Bike-rental-backend\BCP.Web\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Bike-rental-backend\BCP.Web\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+D:\Bike-rental-backend\BCP.Web\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Bike-rental-backend\BCP.Web\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Binder.dll
+D:\Bike-rental-backend\BCP.Web\bin\Debug\net6.0\Microsoft.Extensions.Configuration.CommandLine.dll
+D:\Bike-rental-backend\BCP.Web\bin\Debug\net6.0\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+D:\Bike-rental-backend\BCP.Web\bin\Debug\net6.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\Bike-rental-backend\BCP.Web\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Json.dll
+D:\Bike-rental-backend\BCP.Web\bin\Debug\net6.0\Microsoft.Extensions.Configuration.UserSecrets.dll
+D:\Bike-rental-backend\BCP.Web\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Bike-rental-backend\BCP.Web\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Bike-rental-backend\BCP.Web\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\Bike-rental-backend\BCP.Web\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\Bike-rental-backend\BCP.Web\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Physical.dll
+D:\Bike-rental-backend\BCP.Web\bin\Debug\net6.0\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\Bike-rental-backend\BCP.Web\bin\Debug\net6.0\Microsoft.Extensions.Hosting.dll
+D:\Bike-rental-backend\BCP.Web\bin\Debug\net6.0\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\Bike-rental-backend\BCP.Web\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+D:\Bike-rental-backend\BCP.Web\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Bike-rental-backend\BCP.Web\bin\Debug\net6.0\Microsoft.Extensions.Logging.Configuration.dll
+D:\Bike-rental-backend\BCP.Web\bin\Debug\net6.0\Microsoft.Extensions.Logging.Console.dll
+D:\Bike-rental-backend\BCP.Web\bin\Debug\net6.0\Microsoft.Extensions.Logging.Debug.dll
+D:\Bike-rental-backend\BCP.Web\bin\Debug\net6.0\Microsoft.Extensions.Logging.EventLog.dll
+D:\Bike-rental-backend\BCP.Web\bin\Debug\net6.0\Microsoft.Extensions.Logging.EventSource.dll
+D:\Bike-rental-backend\BCP.Web\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\Bike-rental-backend\BCP.Web\bin\Debug\net6.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+D:\Bike-rental-backend\BCP.Web\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\Bike-rental-backend\BCP.Web\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Bike-rental-backend\BCP.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\Bike-rental-backend\BCP.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\Bike-rental-backend\BCP.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Bike-rental-backend\BCP.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\Bike-rental-backend\BCP.Web\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\Bike-rental-backend\BCP.Web\bin\Debug\net6.0\MimeKit.dll
+D:\Bike-rental-backend\BCP.Web\bin\Debug\net6.0\Mono.TextTemplating.dll
+D:\Bike-rental-backend\BCP.Web\bin\Debug\net6.0\Npgsql.dll
+D:\Bike-rental-backend\BCP.Web\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+D:\Bike-rental-backend\BCP.Web\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.Design.dll
+D:\Bike-rental-backend\BCP.Web\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+D:\Bike-rental-backend\BCP.Web\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Bike-rental-backend\BCP.Web\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Bike-rental-backend\BCP.Web\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Bike-rental-backend\BCP.Web\bin\Debug\net6.0\System.CodeDom.dll
+D:\Bike-rental-backend\BCP.Web\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+D:\Bike-rental-backend\BCP.Web\bin\Debug\net6.0\System.Diagnostics.EventLog.dll
+D:\Bike-rental-backend\BCP.Web\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Bike-rental-backend\BCP.Web\bin\Debug\net6.0\System.Runtime.CompilerServices.Unsafe.dll
+D:\Bike-rental-backend\BCP.Web\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+D:\Bike-rental-backend\BCP.Web\bin\Debug\net6.0\System.Text.Json.dll
+D:\Bike-rental-backend\BCP.Web\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.Messages.dll
+D:\Bike-rental-backend\BCP.Web\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.dll
+D:\Bike-rental-backend\BCP.Web\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+D:\Bike-rental-backend\BCP.Web\bin\Debug\net6.0\BCP.Data.dll
+D:\Bike-rental-backend\BCP.Web\bin\Debug\net6.0\BCP.Module.dll
+D:\Bike-rental-backend\BCP.Web\bin\Debug\net6.0\BCP.Data.pdb
+D:\Bike-rental-backend\BCP.Web\bin\Debug\net6.0\BCP.Module.pdb
+D:\Bike-rental-backend\BCP.Web\obj\Debug\net6.0\BCP.Web.csproj.AssemblyReference.cache
+D:\Bike-rental-backend\BCP.Web\obj\Debug\net6.0\BCP.Web.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bike-rental-backend\BCP.Web\obj\Debug\net6.0\BCP.Web.AssemblyInfoInputs.cache
+D:\Bike-rental-backend\BCP.Web\obj\Debug\net6.0\BCP.Web.AssemblyInfo.cs
+D:\Bike-rental-backend\BCP.Web\obj\Debug\net6.0\BCP.Web.csproj.CoreCompileInputs.cache
+D:\Bike-rental-backend\BCP.Web\obj\Debug\net6.0\BCP.Web.MvcApplicationPartsAssemblyInfo.cs
+D:\Bike-rental-backend\BCP.Web\obj\Debug\net6.0\BCP.Web.MvcApplicationPartsAssemblyInfo.cache
+D:\Bike-rental-backend\BCP.Web\obj\Debug\net6.0\staticwebassets\msbuild.BCP.Web.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Bike-rental-backend\BCP.Web\obj\Debug\net6.0\staticwebassets\msbuild.build.BCP.Web.props
+D:\Bike-rental-backend\BCP.Web\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.BCP.Web.props
+D:\Bike-rental-backend\BCP.Web\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.BCP.Web.props
+D:\Bike-rental-backend\BCP.Web\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Bike-rental-backend\BCP.Web\obj\Debug\net6.0\staticwebassets.build.json
+D:\Bike-rental-backend\BCP.Web\obj\Debug\net6.0\staticwebassets.development.json
+D:\Bike-rental-backend\BCP.Web\obj\Debug\net6.0\scopedcss\bundle\BCP.Web.styles.css
+D:\Bike-rental-backend\BCP.Web\obj\Debug\net6.0\BCP.Web.csproj.CopyComplete
+D:\Bike-rental-backend\BCP.Web\obj\Debug\net6.0\BCP.Web.dll
+D:\Bike-rental-backend\BCP.Web\obj\Debug\net6.0\refint\BCP.Web.dll
+D:\Bike-rental-backend\BCP.Web\obj\Debug\net6.0\BCP.Web.pdb
+D:\Bike-rental-backend\BCP.Web\obj\Debug\net6.0\BCP.Web.genruntimeconfig.cache
+D:\Bike-rental-backend\BCP.Web\obj\Debug\net6.0\ref\BCP.Web.dll
+D:\Bike-rental-backend\BCP.Web\bin\Debug\net6.0\BCP.Web.staticwebassets.runtime.json

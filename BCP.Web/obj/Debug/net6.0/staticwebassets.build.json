@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "jTdDP/DUOeT4ooC4m1HlvZdBtmUhXtMWx4MzvlxjPfg=",
+  "Hash": "cbUd1LMdh/i2YxhoRMdbT9mBbU/83ghKvM7qnEN+d9M=",
   "Source": "BCP.Web",
   "BasePath": "_content/BCP.Web",
   "Mode": "Default",
@@ -8,9 +8,9 @@
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
-      "Name": "BCP.Web/wwwroot",
+      "Name": "BCP.Web\\wwwroot",
       "Source": "BCP.Web",
-      "ContentRoot": "/Users/shreychettri/Desktop/Bike rental back/BCP.Web/wwwroot/",
+      "ContentRoot": "D:\\Bike-rental-backend\\BCP.Web\\wwwroot\\",
       "BasePath": "_content/BCP.Web",
       "Pattern": "**"
     }

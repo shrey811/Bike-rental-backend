@@ -1,5 +1,4 @@
 using BCP.Core.Entities;
-using System.Threading.Tasks;
 
 namespace BCP.Core.Repository
 {
@@ -8,6 +7,6 @@ namespace BCP.Core.Repository
         Task InsertAsync(OtpCode otpCode);
         Task<OtpCode> GetByCodeAndEmailAsync(string code, string email);
         Task SendOtpEmailAsync(string email, string otpCode);
-
+        Task<bool>CheckOtp(string otpCode);
     }
 }

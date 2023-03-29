@@ -1,6 +1,8 @@
-using BCP.ApiModels;
+using System.Diagnostics;
 using BCP.ApiModels.Bike;
+using BCP.ApiModels.Review;
 using BCP.Core.Dtos;
+using BCP.Core.Enums;
 using BCP.Core.Repository;
 using BCP.Core.Services;
 using Microsoft.AspNetCore.Mvc;
@@ -70,6 +72,47 @@ public class BikeController : ControllerBase
         var bikes = await _bikeRepository.GetAllAsync();
         return Ok(bikes);
     }
-  
-    
+
+
+    [HttpPut("{id}/rental-status")]
+    public async Task<IActionResult> UpdateBikeRentalStatus(int id)
+    {
+        var bike = await _bikeRepository.GetByIdAsync(id);
+        if (bike == null)
+        {
+            return NotFound();
+        }
+
+        bike.RentalStatus = BikeRentalStatus.Available; // set rental status to Available
+        await _bikeRepository.UpdateAsync(bike);
+
+        return Ok();
+    }
+
+    [HttpPut("{id}")]
+    public async Task<IActionResult> UpdateBike(int id, BikeUpdateApiModel model)
+    {
+        var bike = await _bikeRepository.GetByIdAsync(id);
+        if (bike == null)
+        {
+            return NotFound();
+        }
+
+        bike.Name = model.Name ;
+        bike.Description = model.Description ;
+        bike.KmRun = model.KmRun ;
+        bike.Milage = model.Milage ;
+        bike.NumberPlate = model.NumberPlate;
+        bike.ImageUrl = model.ImageUrl;
+        bike.Price = model.Price ;
+
+        await _bikeRepository.UpdateAsync(bike);
+
+        return Ok(bike);
+    }
 }
+
+  
+  
+
+    

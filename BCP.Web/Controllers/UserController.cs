@@ -1,16 +1,12 @@
 ﻿using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
-using BCP.ApiModels;
 using BCP.ApiModels.User;
 using BCP.Core.Dtos;
-using BCP.Core.Entities.user;
 using BCP.Core.Helper;
 using BCP.Core.Models;
 using BCP.Core.Repository;
 using BCP.Core.Services;
-using BCP.Core.ViewModels;
-using BCP.Infrastructure.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
@@ -88,11 +84,31 @@ public class UserController : ControllerBase
         var stringToken = tokenHandler.WriteToken(token);
         return Ok(stringToken);
     }
-    [Authorize]
     [HttpGet("users")]
     public async Task<IActionResult> GetAllUsers()
     {
         var users = await _userRepository.GetAllAsync();
         return Ok(users);
     }
+    
+    [HttpPut("update")]
+    public async Task<IActionResult> UpdateUser(UserUpdateApiModel model)
+    {
+        var user = await _userRepository.GetByIdAsync(model.Id);
+        if (user == null)
+        {
+            return BadRequest("User not found");
+        }
+    
+        user.FirstName = model.FirstName;
+        user.LastName = model.LastName;
+        user.Email = model.Email;
+        user.PhoneNumber = model.Phone;
+        user.Password = PasswordHelper.HashPassword(model.Password,model.Email);
+    
+        await _userRepository.UpdateAsync(user);
+    
+        return Ok("User updated successfully");
+    }
+
 }

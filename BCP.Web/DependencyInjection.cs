@@ -18,13 +18,22 @@ public static class DependencyInjection
         services.AddEndpointsApiExplorer();
         services.AddSwaggerGen();
         services.AddDbContext<AppDbContext>();
+        services.AddScoped<IRentRepository,RentRepository>();
         services.AddScoped<IUserRepository, UserRepository>();
         services.AddScoped<IBikeRepository, BikeRepository>();
         services.AddScoped<IBrandRepository, BrandRepository>();
         services.AddScoped<IOtpRepository, OtpRepository>();
+        services.AddScoped<IReviewRepository,ReviewRepository>();
+
+
+       
+
         services.AddScoped<OtpService>();
         services.AddScoped<UserService>();
         services.AddScoped<BikeService>();
+        services.AddScoped<RentalService>();
+        services.AddScoped<ReviewService>();
+
 
         return services;
     }

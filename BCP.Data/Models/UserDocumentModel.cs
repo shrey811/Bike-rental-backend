@@ -1,6 +1,4 @@
-﻿using Microsoft.AspNetCore.Http;
-
-namespace BCP.Infrastructure.Models;
+﻿namespace BCP.Infrastructure.Models;
 
 public class UserDocumentModel
 {

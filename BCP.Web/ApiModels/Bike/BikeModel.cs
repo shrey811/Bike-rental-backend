@@ -1,3 +1,5 @@
+using BCP.ApiModels.Review;
+
 namespace BCP.ApiModels.Bike;
 
 public class BikeModel

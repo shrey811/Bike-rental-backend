@@ -1,7 +1,5 @@
-using BCP.Core.Dtos;
 using BCP.Core.Entities;
 using BCP.Core.Repository;
-using Microsoft.EntityFrameworkCore;
 
 namespace BCP.Infrastructure.Repository;
 

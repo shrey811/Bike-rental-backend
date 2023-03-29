@@ -1,6 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Threading.Tasks;
 using BCP.Core.Dtos;
 using BCP.Core.Entities;
 using BCP.Core.Enums;
@@ -13,15 +10,15 @@ namespace BCP.Core.Services
     {
         private readonly IBikeRepository _bikeRepository;
         private readonly IUserRepository _userRepository;
-        private readonly BikeService _bikeService;
         private readonly IRentRepository _rentRepository;
 
-        public RentalService(IBikeRepository bikeRepository, IUserRepository userRepository, BikeService bikeService,IRentRepository rentRepository)
+
+        public RentalService(IBikeRepository bikeRepository, IUserRepository userRepository,IRentRepository rentRepository)
         {
             _bikeRepository = bikeRepository;
             _userRepository = userRepository;
-            _bikeService = bikeService;
             _rentRepository = rentRepository;
+         
         }
 
         public async Task RentBikeAsync(RentDto dto)
@@ -43,10 +40,14 @@ namespace BCP.Core.Services
                 Remarks = dto.Remarks,
                 RentedUntil = dto.RentedUntil,
                 RentedOn = dto.RentedOn ?? DateTime.UtcNow,
-                Price = dto.Price
+                Price = dto.Price,
+                
             };
             
             await _bikeRepository.UpdateAsync(bike);
+            await _rentRepository.InsertAsync(rentalEntry);
+            // await _rentRepository.SendOtpEmailAsync(rentalEntry);
+            await _rentRepository.SendRentalEmailAsync(user, bike);
         }
 
         public async Task ReturnBikeAsync(ReturnDto dto)

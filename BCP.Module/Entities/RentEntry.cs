@@ -5,6 +5,10 @@ namespace BCP.Core.Entities;
 
 public class RentEntry
 {
+    public RentEntry()
+    {
+        Status = BikeRentalStatus.Rented;
+    }
     public int Id { get; set; }
     public int BikeId { get; set; }
     public int UserId { get; set; }

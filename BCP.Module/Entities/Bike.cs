@@ -1,8 +1,15 @@
 namespace BCP.Core.Entities;
 using BCP.Core.Enums;
 
+
+
 public class Bike
 {
+    public Bike()
+    {
+        RentalStatus = BikeRentalStatus.Available;
+        Reviews =new HashSet<Review>();
+    }
     public int Id { get; set; }
     public string Name { get; set; }
     public string NumberPlate { get; set; }
@@ -10,7 +17,8 @@ public class Bike
     public Brand Brand { get; set; }
      public BikeRentalStatus RentalStatus { get; set; }
     
-    // public ICollection<RentEntry> RentEntries { get; set; }
+     
+     public ICollection<Review> Reviews { get; set; }
     public decimal Rating { get; set; }
     public decimal KmRun { get; set; }
     public string Description { get; set; }
