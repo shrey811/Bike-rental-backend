@@ -41,6 +41,7 @@ namespace BCP.Core.Services
                 RentedUntil = dto.RentedUntil,
                 RentedOn = dto.RentedOn ?? DateTime.UtcNow,
                 Price = dto.Price,
+                ImageUrl = dto.ImageUrl,
                 
             };
             

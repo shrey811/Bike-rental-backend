@@ -5,6 +5,7 @@ using BCP.Core.Services;
 using Microsoft.AspNetCore.Mvc;
 using BCP.ApiModels.Rent;
 using BCP.Core.Enums;
+using Microsoft.EntityFrameworkCore.Metadata;
 
 namespace BCP.API.Controllers
 {
@@ -39,7 +40,9 @@ namespace BCP.API.Controllers
                 RentedOn = r.RentedOn,
                 RentedUntil = r.RentedUntil,
                 Id = r.Id,
-                Price = r.Price
+                Price = r.Price,
+                ImageUrl = r.ImageUrl,
+                
             });
             return Ok(model);
         }
@@ -65,7 +68,8 @@ namespace BCP.API.Controllers
                 RentedUntil = model.RentedUntil,
                 RentedOn = model.RentedOn,
                 Remarks = model.Remarks,
-                Price = model.Price
+                Price = model.Price,
+                ImageUrl = model.ImageUrl,
             };
 
             await _rentService.RentBikeAsync(rentEntry);

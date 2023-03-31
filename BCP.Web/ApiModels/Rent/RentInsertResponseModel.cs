@@ -9,4 +9,5 @@ public class RentInsertResponseModel
     public DateTime RentedOn { get; set; }
     public int Price { get; set; }
     
+    public string ImageUrl { get; set; }
 }

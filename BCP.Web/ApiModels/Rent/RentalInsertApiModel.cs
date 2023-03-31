@@ -8,5 +8,6 @@ namespace BCP.ApiModels.Rent
         public int Price { get; set; }
         public DateTime RentedUntil { get; set; }
         public string? Remarks { get; set; }
+        public string ImageUrl { get; set; }
     }
 }

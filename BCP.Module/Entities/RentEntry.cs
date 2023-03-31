@@ -19,5 +19,6 @@ public class RentEntry
     public Bike Bike { get; set; }
     public User RentedBy { get; set; }
     public int Price { get; set; }
+    public string  ImageUrl { get; set; }
 }
 

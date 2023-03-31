@@ -32,7 +32,7 @@
                     Code = otpCode
                 };
 
-                return Ok(otpModel);
+                return Ok("OTP sent to your email");
             }
             [HttpGet("{otpcode}")]
             public async Task<ActionResult<bool>> GenerateOtp(string otpcode)
