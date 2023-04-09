@@ -43,11 +43,21 @@
                 message.From.Add(new MailboxAddress("TEST 1234", "shreychettri7@gmail.com"));
                 message.To.Add(new MailboxAddress("check", "shreyasbudhathoki2015@gmail.com"));
                 message.Subject = "Your bike rental details";
-                message.Body = new TextPart("plain")
-                {
-                    Text =
-                        $"The bike {bike.Name} has been rented by {user.FirstName} {user.LastName}.Please check the admin panel for more details of the rent."
-                };
+
+                // Create a HTML message body with the desired design
+                var builder = new BodyBuilder();
+                builder.HtmlBody = $@"
+        <div style='background-color: #2D3E50; padding: 20px; border-radius: 20px 20px 0px 0px;'>
+            <h1 style='color: #fff; text-align: center;'>Bike has been rented</h1>
+        </div>
+        <div style='background-color: #fff; padding: 20px; border-radius: 0px 0px 20px 20px;'>
+   <p style='font-size: 18px; line-height: 1.5em; margin-bottom: 20px;'>Bikers Choice,</p>
+            <p style='font-size: 18px; line-height: 1.5em; margin-bottom: 20px;'>A Bike has been rented by {user.FirstName} {user.LastName}</p>
+            <p style='font-size: 18px; line-height: 1.5em; margin-bottom: 20px;'><strong>{bike.Name}</strong> has been rented. Please check the admin panel for more details of the rent.</p>
+            <a href='http://localhost:3000/' style='background-color: #2D3E50; color: #fff; text-decoration: none; font-size: 16px; padding: 10px 20px; border-radius: 5px; display: inline-block;'>View Rental Details</a>
+        </div>";
+
+                message.Body = builder.ToMessageBody();
 
                 using (var client = new SmtpClient())
                 {
@@ -57,6 +67,7 @@
                     await client.DisconnectAsync(true);
                 }
             }
+            
 
         }
     }
