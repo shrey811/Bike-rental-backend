@@ -47,38 +47,38 @@ namespace BCP.API.Controllers
             return Ok(model);
         }
 
-        [HttpPost("rent")]
-        public async Task<ActionResult<Bike>> RentBike(RentalInsertApiModel model)
-        {
-            var bike = await _bikeRepository.GetByIdAsync(model.BikeId);
-            if (bike == null)
+            [HttpPost("rent")]
+            public async Task<ActionResult<Bike>> RentBike(RentalInsertApiModel model)
             {
-                return NotFound();
+                var bike = await _bikeRepository.GetByIdAsync(model.BikeId);
+                if (bike == null)
+                {
+                    return NotFound();
+                }
+
+                if (!bike.RentalStatus.Equals(BikeRentalStatus.Available))
+                {
+                    return BadRequest("Bike is not available for rent");
+                }
+
+                var rentEntry = new RentDto()
+                {
+                    BikeId = bike.Id,
+                    UserId = model.UserId,
+                    RentedUntil = model.RentedUntil,
+                    RentedOn = model.RentedOn,
+                    Remarks = model.Remarks,
+                    Price = model.Price,
+                    ImageUrl = model.ImageUrl,
+                };
+
+                await _rentService.RentBikeAsync(rentEntry);
+
+                bike.RentalStatus = BikeRentalStatus.Rented;
+                await _bikeRepository.UpdateAsync(bike);
+
+                return bike;
             }
-
-            if (!bike.RentalStatus.Equals(BikeRentalStatus.Available))
-            {
-                return BadRequest("Bike is not available for rent");
-            }
-
-            var rentEntry = new RentDto()
-            {
-                BikeId = bike.Id,
-                UserId = model.UserId,
-                RentedUntil = model.RentedUntil,
-                RentedOn = model.RentedOn,
-                Remarks = model.Remarks,
-                Price = model.Price,
-                ImageUrl = model.ImageUrl,
-            };
-
-            await _rentService.RentBikeAsync(rentEntry);
-
-            bike.RentalStatus = BikeRentalStatus.Rented;
-            await _bikeRepository.UpdateAsync(bike);
-
-            return bike;
-        }
 
         // [HttpPost("return")]
         // public async Task<ActionResult<Bike>> ReturnBike(ReturnApiModel model)

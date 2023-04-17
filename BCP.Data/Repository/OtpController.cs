@@ -94,7 +94,7 @@ namespace BCP.Infrastructure.Repository;
                 </div>";
 
             var message = new MimeMessage();
-            message.From.Add(new MailboxAddress("TEST 1234", "shreychettri7@gmail.com"));
+            message.From.Add(new MailboxAddress("Bikers Choice", "shreychettri7@gmail.com"));
             message.To.Add(new MailboxAddress("", email));
             message.Subject = "Your OTP Code";
 

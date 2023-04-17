@@ -40,7 +40,7 @@
             public async Task SendRentalEmailAsync(User user, Bike bike)
             {
                 var message = new MimeMessage();
-                message.From.Add(new MailboxAddress("TEST 1234", "shreychettri7@gmail.com"));
+                message.From.Add(new MailboxAddress("Bikers Choice", "shreychettri7@gmail.com"));
                 message.To.Add(new MailboxAddress("check", "shreyasbudhathoki2015@gmail.com"));
                 message.Subject = "Your bike rental details";
 

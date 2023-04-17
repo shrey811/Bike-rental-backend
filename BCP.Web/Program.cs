@@ -21,12 +21,6 @@ using (var scope = app.Services.CreateScope())
     var service = scope.ServiceProvider;
     var context = service.GetRequiredService<AppDbContext>();
 }
-
-// app.UseStaticFiles(new StaticFileOptions
-// {
-//     FileProvider = new PhysicalFileProvider(Path.Combine(builder.Environment.ContentRootPath, "wwwroot")),
-//     RequestPath = "/temp"
-// });
 app.UseStaticFiles();
 app.UseCors(builder =>
 {
