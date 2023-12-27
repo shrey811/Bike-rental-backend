@@ -10,3 +10,16 @@ D:\Bike-rental-backend\BCP.Module\obj\Debug\net6.0\BCP.Module.dll
 D:\Bike-rental-backend\BCP.Module\obj\Debug\net6.0\refint\BCP.Module.dll
 D:\Bike-rental-backend\BCP.Module\obj\Debug\net6.0\BCP.Module.pdb
 D:\Bike-rental-backend\BCP.Module\obj\Debug\net6.0\ref\BCP.Module.dll
+D:\Office\Bike-rental-backend\BCP.Module\bin\Debug\net6.0\BCP.Module.deps.json
+D:\Office\Bike-rental-backend\BCP.Module\bin\Debug\net6.0\BCP.Module.dll
+D:\Office\Bike-rental-backend\BCP.Module\bin\Debug\net6.0\BCP.Module.pdb
+D:\Office\Bike-rental-backend\BCP.Module\obj\Debug\net6.0\BCP.Module.csproj.AssemblyReference.cache
+D:\Office\Bike-rental-backend\BCP.Module\obj\Debug\net6.0\BCP.Module.GeneratedMSBuildEditorConfig.editorconfig
+D:\Office\Bike-rental-backend\BCP.Module\obj\Debug\net6.0\BCP.Module.AssemblyInfoInputs.cache
+D:\Office\Bike-rental-backend\BCP.Module\obj\Debug\net6.0\BCP.Module.AssemblyInfo.cs
+D:\Office\Bike-rental-backend\BCP.Module\obj\Debug\net6.0\BCP.Module.csproj.CoreCompileInputs.cache
+D:\Office\Bike-rental-backend\BCP.Module\obj\Debug\net6.0\BCP.Module.sourcelink.json
+D:\Office\Bike-rental-backend\BCP.Module\obj\Debug\net6.0\BCP.Module.dll
+D:\Office\Bike-rental-backend\BCP.Module\obj\Debug\net6.0\refint\BCP.Module.dll
+D:\Office\Bike-rental-backend\BCP.Module\obj\Debug\net6.0\BCP.Module.pdb
+D:\Office\Bike-rental-backend\BCP.Module\obj\Debug\net6.0\ref\BCP.Module.dll

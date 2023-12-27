@@ -7031,23 +7031,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Lenovo\\.nuget\\packages\\": {},
+    "C:\\Users\\shrey\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Bike-rental-backend\\BCP.Data\\BCP.Data.csproj",
+      "projectUniqueName": "D:\\Office\\Bike-rental-backend\\BCP.Data\\BCP.Data.csproj",
       "projectName": "BCP.Data",
-      "projectPath": "D:\\Bike-rental-backend\\BCP.Data\\BCP.Data.csproj",
-      "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-      "outputPath": "D:\\Bike-rental-backend\\BCP.Data\\obj\\",
+      "projectPath": "D:\\Office\\Bike-rental-backend\\BCP.Data\\BCP.Data.csproj",
+      "packagesPath": "C:\\Users\\shrey\\.nuget\\packages\\",
+      "outputPath": "D:\\Office\\Bike-rental-backend\\BCP.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\shrey\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -7056,14 +7056,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Bike-rental-backend\\BCP.Module\\BCP.Module.csproj": {
-              "projectPath": "D:\\Bike-rental-backend\\BCP.Module\\BCP.Module.csproj"
+            "D:\\Office\\Bike-rental-backend\\BCP.Module\\BCP.Module.csproj": {
+              "projectPath": "D:\\Office\\Bike-rental-backend\\BCP.Module\\BCP.Module.csproj"
             }
           }
         }
@@ -7133,7 +7134,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

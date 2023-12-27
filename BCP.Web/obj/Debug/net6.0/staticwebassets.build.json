@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "cbUd1LMdh/i2YxhoRMdbT9mBbU/83ghKvM7qnEN+d9M=",
+  "Hash": "yOGGW/9NOH9QV3R3CeKFcfdwBrHzWbcBNTD98Hr31mA=",
   "Source": "BCP.Web",
   "BasePath": "_content/BCP.Web",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "BCP.Web\\wwwroot",
       "Source": "BCP.Web",
-      "ContentRoot": "D:\\Bike-rental-backend\\BCP.Web\\wwwroot\\",
+      "ContentRoot": "D:\\Office\\Bike-rental-backend\\BCP.Web\\wwwroot\\",
       "BasePath": "_content/BCP.Web",
       "Pattern": "**"
     }
